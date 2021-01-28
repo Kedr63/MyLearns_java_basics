@@ -3,8 +3,48 @@ public class Loader
 {
     public static void main(String[] args)
     {
-        Cat cat = new Cat();
+        Cat cat1 = new Cat();
+        Cat cat2 = new Cat();
+        Cat cat3 = new Cat();
+        Cat cat4 = new Cat();
+        Cat cat5 = new Cat();
+        Cat cat6 = new Cat();
 
-        System.out.println(cat.getStatus());
+        //выведем вес кошек
+        System.out.println("Weight Cat1 - " + cat1.getWeight() + " kg");
+        System.out.println("Weight Cat2 - " + cat2.getWeight() + " kg");
+        System.out.println("Weight Cat3 - " + cat3.getWeight() + " kg");
+        System.out.println("Weight Cat4 - " + cat4.getWeight() + " kg");
+        System.out.println("Weight Cat5 - " + cat5.getWeight() + " kg");
+        System.out.println("Weight Cat6 - " + cat6.getWeight() + " kg \n");
+
+        //покормим кошек
+        System.out.println("Weight Cat6 before eating: " + cat6.getWeight().intValue());
+        cat6.feed(120.0);
+        System.out.println("Weight Cat6 after eating: " + cat6.getWeight().intValue() + "\n");
+
+        System.out.println("Weight Cat5 before eating: " + cat5.getWeight());
+        cat5.feed(200.0);
+        System.out.println("Weight Cat5 after eating: " + cat5.getWeight() + "\n");
+
+
+        // замяукать cat1
+        System.out.println("Cat1 - weight before meow: " + cat1.getWeight());
+        while (cat1.getWeight() > cat1.getMinWeight()) {
+            cat1.meow();
+            System.out.println("Cat1 decreased by: "+ cat1.getWeight() + "  (Cat1 meow and " + cat1.getStatus() + ")");
+        }
+        System.out.println("Cat1 - after many meows: " + cat1.getStatus() + "\n");
+
+
+
+        // закормить Cat2
+        System.out.printf("Cat2 - weight before eating: %.2f \n", cat2.getWeight());  // округлим вес до 2 знаков после запятой и перенесем строку
+        while (cat2.getWeight() < cat2.getMaxWeight()){
+            cat2.feed(75.0);
+            System.out.printf("Cat2 - weight after eating: %.2f ", cat2.getWeight());
+            System.out.println("   (Cat2 ate and " + cat2.getStatus() + ")");
+        }
+        System.out.println("Cat2 - after overeating: " + cat2.getStatus());
     }
 }

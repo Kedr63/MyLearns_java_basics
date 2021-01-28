@@ -37,6 +37,18 @@ public class Cat
         return weight;
     }
 
+
+    public double getMinWeight()  //создадим геттер для minWeight
+    {
+        return minWeight;
+    }
+
+
+    public double getMaxWeight()     //создадим геттер для maxWeight
+    {
+        return maxWeight;
+    }
+
     public String getStatus()
     {
         if(weight < minWeight) {
