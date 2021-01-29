@@ -45,6 +45,25 @@ public class Loader
             System.out.printf("Cat2 - weight after eating: %.2f ", cat2.getWeight());
             System.out.println("   (Cat2 ate and " + cat2.getStatus() + ")");
         }
-        System.out.println("Cat2 - after overeating: " + cat2.getStatus());
+        System.out.println("Cat2 - after overeating: " + cat2.getStatus() + "\n");
+
+
+        //урок 2 'method, parameters and return'
+
+        Cat cat7 = new Cat();
+
+
+        System.out.println("Cat weight begin: " + cat7.getWeight().intValue());
+        cat7.feed(150.0);
+        cat7.pee();
+        System.out.println("After First feeding, cat weight : " + cat7.getWeight().intValue());
+        cat7.feed(100.0);
+        cat7.pee();
+        System.out.println("After Second feeding, cat weight : " + cat7.getWeight().intValue());
+        System.out.println("Cat weight at the end: " + cat7.getWeight().intValue());
+        System.out.println("Amount weight food: " + cat7.getFoodWeight());
+
+
+
     }
 }

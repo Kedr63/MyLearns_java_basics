@@ -7,6 +7,8 @@ public class Cat
     private double minWeight;
     private double maxWeight;
 
+    private double foodWeight; // объявим переменную - вес еды для кошки
+
     public Cat()
     {
         weight = 1500.0 + 3000.0 * Math.random();
@@ -25,6 +27,7 @@ public class Cat
     public void feed(Double amount)
     {
         weight = weight + amount;
+        foodWeight = foodWeight + amount;  //добавим в метод счетчик суммирования съеденной еды
     }
 
     public void drink(Double amount)
@@ -64,4 +67,14 @@ public class Cat
             return "Playing";
         }
     }
+    public double getFoodWeight() {    //создадим метод (геттер) возврата веса всей съеденной еды
+        return foodWeight;
+    }
+
+    public void pee()   {                 //создадим метод: кошка пописала
+        weight = weight - weight / 100;
+        System.out.println("Cat pee");
+    }
+
+
 }
