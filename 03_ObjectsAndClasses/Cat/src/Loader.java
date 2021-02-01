@@ -51,6 +51,7 @@ public class Loader
         //урок 2 'method, parameters and return'
 
         Cat cat7 = new Cat();
+        Cat.foodWeight = 0;
 
 
         System.out.println("Cat weight begin: " + cat7.getWeight().intValue());
@@ -58,6 +59,7 @@ public class Loader
         cat7.pee();
         System.out.println("After First feeding, cat weight : " + cat7.getWeight().intValue());
         cat7.feed(100.0);
+        cat7.drink(45.0);
         cat7.pee();
         System.out.println("After Second feeding, cat weight : " + cat7.getWeight().intValue());
         System.out.println("Cat weight at the end: " + cat7.getWeight().intValue());

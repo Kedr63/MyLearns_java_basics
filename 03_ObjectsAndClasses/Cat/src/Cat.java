@@ -7,7 +7,7 @@ public class Cat
     private double minWeight;
     private double maxWeight;
 
-    private double foodWeight; // объявим переменную - вес еды для кошки
+    public static double foodWeight; // объявим переменную - вес еды для кошки
 
     public Cat()
     {
@@ -69,7 +69,7 @@ public class Cat
     }
     public double getFoodWeight() {    //создадим метод (геттер) возврата веса всей съеденной еды
         return foodWeight;
-    }
+    }  //создадим метод (геттер) суммы съеденной еды кошкой
 
     public void pee()   {                 //создадим метод: кошка пописала
         weight = weight - weight / 100;
