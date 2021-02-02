@@ -8,6 +8,7 @@ public class Cat
     private double maxWeight;
 
     public static double foodWeight; // объявим переменную - вес еды для кошки
+    public static int count;         // счетчик кошек
 
     public Cat()
     {
@@ -15,6 +16,7 @@ public class Cat
         originWeight = weight;
         minWeight = 1000.0;
         maxWeight = 9000.0;
+        count++;            //при создании кошки кол-во > на 1 кошку
 
     }
 
@@ -26,13 +28,30 @@ public class Cat
 
     public void feed(Double amount)
     {
-        weight = weight + amount;
-        foodWeight = foodWeight + amount;  //добавим в метод счетчик суммирования съеденной еды
+        if (weight < minWeight) {
+            System.out.println("Кошка не может есть, она - " + getStatus());
+        }
+        else if (weight > maxWeight){
+            System.out.println("Кошка не может есть, она - " + getStatus());
+        }
+        else {
+            weight = weight + amount;
+            foodWeight = foodWeight + amount;  //добавим в метод счетчик суммирования съеденной еды
+        }
+
     }
 
     public void drink(Double amount)
     {
-        weight = weight + amount;
+        if (weight < minWeight) {
+            System.out.println("Кошка не может пить, она - " + getStatus());
+        }
+        else if (weight > maxWeight){
+            System.out.println("Кошка не может пить, она - " + getStatus());
+        }
+        else{
+            weight = weight + amount;
+        }
     }
 
     public Double getWeight()
@@ -43,12 +62,18 @@ public class Cat
 
     public double getMinWeight()  //создадим геттер для minWeight
     {
+        if (weight < minWeight){      //если условие будет true, то мы лишимся еще одной кошки
+            count--;
+        }
         return minWeight;
     }
 
 
     public double getMaxWeight()     //создадим геттер для maxWeight
     {
+        if (weight > maxWeight){      //если условие будет true, то мы лишимся еще одной кошки
+            count--;
+        }
         return maxWeight;
     }
 
@@ -67,14 +92,33 @@ public class Cat
             return "Playing";
         }
     }
-    public double getFoodWeight() {    //создадим метод (геттер) возврата веса всей съеденной еды
-        return foodWeight;
-    }  //создадим метод (геттер) суммы съеденной еды кошкой
 
-    public void pee()   {                 //создадим метод: кошка пописала
-        weight = weight - weight / 100;
-        System.out.println("Cat pee");
+    //создадим метод (геттер) возврата веса всей съеденной еды
+    public double getFoodWeight()
+    {
+        return foodWeight;
     }
 
+
+    //создадим метод: кошка пописала
+    public void pee()   {
+        if (weight < minWeight){
+            System.out.println("Кошка не сможет сходить в туалет, она - " + getStatus());
+        }
+        else if (weight > maxWeight){
+            System.out.println("Кошка не сможет сходить в туалет, она - " + getStatus());
+        }
+        else {
+            weight = weight - weight / 100;
+            System.out.println("Cat pee");
+        }
+
+    }
+
+    //создадим метод (геттер) возврата живых кошек
+    public static void getCountCat()
+    {
+        System.out.println("Количество кошек: " + count);
+    }
 
 }

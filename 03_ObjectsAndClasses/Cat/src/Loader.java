@@ -63,7 +63,54 @@ public class Loader
         cat7.pee();
         System.out.println("After Second feeding, cat weight : " + cat7.getWeight().intValue());
         System.out.println("Cat weight at the end: " + cat7.getWeight().intValue());
-        System.out.println("Amount weight food: " + cat7.getFoodWeight());
+        System.out.println("Amount weight food: " + cat7.getFoodWeight() + "\n");
+
+
+        //урок 3 'static methods and variables'
+
+        Cat.getCountCat();  //получим количество живых кошек
+
+        System.out.println();
+
+        System.out.println(cat1.getWeight() + " Покормим кошку: ");  //покормим замяуканную кошку
+        cat1.feed(150.0);
+        System.out.println(cat1.getWeight());
+
+        System.out.println(cat2.getWeight() + " Покормим кошку: ");   //покормим закормленную кошку
+        cat2.feed(100.0);
+        System.out.println(cat2.getWeight());
+
+        System.out.println(cat3.getWeight() + " Покормим кошку: ");   //покормим живую кошку
+        cat3.feed(100.0);
+        System.out.println(cat3.getWeight());
+
+        System.out.println();
+
+        System.out.println(cat1.getWeight() + " Попоим кошку: ");    //попоим замяуканную кошку
+        cat1.drink(75.0);
+        System.out.println(cat1.getWeight());
+
+        System.out.println(cat2.getWeight() + " Попоим кошку: ");    //попоим закормленную кошку
+        cat2.drink(85.0);
+        System.out.println(cat2.getWeight());
+
+        System.out.println(cat4.getWeight() + " Попоим кошку: ");    //попоим живую кошку
+        cat4.drink(55.0);
+        System.out.println(cat4.getWeight());
+
+        System.out.println();
+
+        System.out.println(cat1.getWeight() + " Посадим кошку на горшок: ");   // замяуканную кошку посадим на горшок
+        cat1.pee();
+        System.out.println(cat1.getWeight());
+
+        System.out.println(cat2.getWeight() + " Посадим кошку на горшок: ");   // закормленную кошку посадим на горшок
+        cat2.pee();
+        System.out.println(cat2.getWeight());
+
+        System.out.println(cat5.getWeight() + " Попоим кошку: ");    //живую кошку посадим на горшок
+        cat5.drink(55.0);
+        System.out.println(cat5.getWeight());
 
 
 
