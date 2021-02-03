@@ -10,6 +10,10 @@ public class Cat
     public static double foodWeight; // объявим переменную - вес еды для кошки
     public static int count;         // счетчик кошек
 
+    public static final int EYES_COUNT = 2;         //создадим константы
+    public static final double MAX_WEIGHT = 9000.0;
+    public static final double MIN_WEIGHT = 1000.0;
+
     public Cat()
     {
         weight = 1500.0 + 3000.0 * Math.random();
@@ -119,6 +123,11 @@ public class Cat
     public static void getCountCat()
     {
         System.out.println("Количество кошек: " + count);
+    }
+
+    //создадим геттер получения раскраса кошки
+    public Color getColor(Color color){
+        return color;
     }
 
 }

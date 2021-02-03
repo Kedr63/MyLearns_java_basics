@@ -112,6 +112,11 @@ public class Loader
         cat5.drink(55.0);
         System.out.println(cat5.getWeight());
 
+        //урок 4
+        System.out.println();
+        System.out.println("Кошка имеет " + cat1.getColor(Color.GREY) + " раскрас");
+        System.out.println("Cat have " + cat3.getColor(Color.WIGHT) + " color");
+
 
 
     }
