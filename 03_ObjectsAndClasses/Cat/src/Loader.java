@@ -117,7 +117,23 @@ public class Loader
         System.out.println("Кошка имеет " + cat1.getColor(Color.GREY) + " раскрас");
         System.out.println("Cat have " + cat3.getColor(Color.WIGHT) + " color");
 
+        //урок 5: 'objects creation and constructor'
+        System.out.println();
+        Cat.getCountCat(); //количество кошек перед рождением котят
+        getKitten("Снежок");
+        getKitten("Барсик");
+        getKitten("Рыжик");
+        getKitten("Муська");
+        Cat.getCountCat();  //заодно проверим сколько стало кошек
 
 
+    }
+
+    //урок 5: 'objects creation and constructor'
+    // создадим метод генерации (рождения) котят
+    private static Cat getKitten(String name){
+        Cat cat = new Cat(1100.0);
+        System.out.println("Born kitten: " + name + " ,weight: " + cat.getWeight());
+        return cat;
     }
 }

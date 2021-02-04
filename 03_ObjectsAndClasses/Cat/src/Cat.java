@@ -24,6 +24,12 @@ public class Cat
 
     }
 
+    //урок 5: создадим конструктор для установки веса кошки при ее создании
+    public Cat(double weight){
+        this.weight = weight;
+        count++;
+    }
+
     public void meow()
     {
         weight = weight - 1;
@@ -129,5 +135,6 @@ public class Cat
     public Color getColor(Color color){
         return color;
     }
+
 
 }
