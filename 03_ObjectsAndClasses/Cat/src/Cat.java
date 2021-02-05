@@ -14,6 +14,40 @@ public class Cat
     public static final double MAX_WEIGHT = 9000.0;
     public static final double MIN_WEIGHT = 1000.0;
 
+    //создадим переменную окраса кошки и сеттер и геттер для нее
+    private String colorCat;
+    public void setColorCat(String colorCat){
+        this.colorCat = colorCat;
+    }
+    public String getColorCat(){
+        return colorCat;
+    }
+
+    //создадим переменную имени кошки для урока 7 (копирование объекта)
+    private String name;
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+    public Double getWeight() {
+        return weight;
+    }
+
+    //урок 7 создадим конструктор (для копирования параметров кошек при создании новых кошек)
+    public Cat(String name, double weight, String colorCat){
+        this.name = name;
+        this.weight = weight;
+        this.colorCat = colorCat;
+        count++;                // и опять добавим счетчик для контроля поголовья котов
+    }
+
+
     public Cat()
     {
         weight = 1500.0 + 3000.0 * Math.random();
@@ -64,10 +98,7 @@ public class Cat
         }
     }
 
-    public Double getWeight()
-    {
-        return weight;
-    }
+
 
 
     public double getMinWeight()  //создадим геттер для minWeight

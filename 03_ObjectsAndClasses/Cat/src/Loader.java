@@ -127,6 +127,29 @@ public class Loader
         Cat.getCountCat();  //заодно проверим сколько стало кошек
 
 
+        //урок 7 глубокая копия объекта (с помощью конструктора)
+        System.out.println();
+        System.out.println("Копирование объекта с помощью коструктора");
+        Cat cat10 = new Cat("Барсик", 1500.0, "Grey");
+        System.out.println(cat10.getName() + " " + cat10.getWeight() + " " +  cat10.getColorCat());
+        Cat cat11 = new Cat(cat10.getName(), cat10.getWeight(), cat10.getColorCat());
+        System.out.println(cat11.getName() + " " + cat11.getWeight() + " " +  cat11.getColorCat());
+        Cat.getCountCat();
+
+        System.out.println();
+        System.out.println("Копирование объектов сеттерами и геттерами");
+        Cat cat12 = new Cat();
+        cat12.setName("Муська");
+        cat12.setWeight(1650.0);
+        cat12.setColorCat("Black");
+        System.out.println(cat12.getName() + " " + cat12.getWeight() + " " + cat12.getColorCat());
+        Cat cat13 = new Cat();
+        cat13.setName(cat12.getName());
+        cat13.setWeight(cat12.getWeight());
+        cat13.setColorCat(cat12.getColorCat());
+        System.out.println(cat13.getName() + " " + cat13.getWeight() + " " + cat13.getColorCat());
+        Cat.getCountCat();
+
     }
 
     //урок 5: 'objects creation and constructor'
