@@ -130,10 +130,10 @@ public class Loader
         //урок 7 глубокая копия объекта (с помощью конструктора)
         System.out.println();
         System.out.println("Копирование объекта с помощью коструктора");
-        Cat cat10 = new Cat("Барсик", 1500.0, "Grey");
-        System.out.println(cat10.getName() + " " + cat10.getWeight() + " " +  cat10.getColorCat());
-        Cat cat11 = new Cat(cat10.getName(), cat10.getWeight(), cat10.getColorCat());
-        System.out.println(cat11.getName() + " " + cat11.getWeight() + " " +  cat11.getColorCat());
+        Cat cat10 = new Cat("Барсик", 1500.0, Color.GREY);
+        System.out.println(cat10.getName() + " " + cat10.getWeight() + " " +  cat10.getColor());
+        Cat cat11 = new Cat(cat10.getName(), cat10.getWeight(), cat10.getColor());
+        System.out.println(cat11.getName() + " " + cat11.getWeight() + " " +  cat11.getColor());
         Cat.getCountCat();
 
         System.out.println();
@@ -141,14 +141,54 @@ public class Loader
         Cat cat12 = new Cat();
         cat12.setName("Муська");
         cat12.setWeight(1650.0);
-        cat12.setColorCat("Black");
-        System.out.println(cat12.getName() + " " + cat12.getWeight() + " " + cat12.getColorCat());
+        cat12.setColor(Color.BLACK);
+        System.out.println(cat12.getName() + " " + cat12.getWeight() + " " + cat12.getColor());
         Cat cat13 = new Cat();
         cat13.setName(cat12.getName());
         cat13.setWeight(cat12.getWeight());
-        cat13.setColorCat(cat12.getColorCat());
-        System.out.println(cat13.getName() + " " + cat13.getWeight() + " " + cat13.getColorCat());
+        cat13.setColor(cat12.getColor());
+        System.out.println(cat13.getName() + " " + cat13.getWeight() + " " + cat13.getColor());
         Cat.getCountCat();
+
+        //потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)
+        System.out.println();
+        System.out.println("потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)");
+        System.out.println("закормленная cat2: " + cat2.getStatus() + " " + cat2.getWeight() + " " + cat2.getMaxWeight());
+        cat2.feed(150.0);
+        Cat.getCountCat();
+        cat2.feed(500.0);
+        Cat.getCountCat();
+        cat1.meow();
+        System.out.println(cat1.getWeight()+" "+cat1.isAlive());
+        Cat.getCountCat();
+        System.out.println();
+        cat1.drink(85.0);
+        cat1.meow();
+        cat1.feed(400.0);
+        cat1.pee();
+        cat3.pee();
+        cat3.feed(250.0);
+        cat3.meow();
+        cat3.drink(312.0);
+        System.out.println("cat1: "+cat1.isAlive());
+        System.out.println("cat2: "+cat2.isAlive());
+        System.out.println("cat3: "+cat3.isAlive());
+        System.out.println("cat4: "+cat4.isAlive());
+        System.out.println("cat5: "+cat5.isAlive());
+        System.out.println("cat6: "+cat6.isAlive());
+        System.out.println("cat7: "+cat7.isAlive());
+        System.out.println("cat10: "+cat10.isAlive());
+        System.out.println("cat11: "+cat11.isAlive());
+        System.out.println("cat12: "+cat12.isAlive());
+        System.out.println("cat13: "+cat13.isAlive());
+        Cat.getCountCat();
+        cat3.feed(8000.0);
+        cat3.feed(500.0);
+        System.out.println("cat3: "+cat3.isAlive());
+        Cat.getCountCat();
+
+
+
 
     }
 
