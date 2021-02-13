@@ -10,7 +10,11 @@ public class Cat
     private boolean isAlive;
 
     public void setAlive(boolean alive) {
-        isAlive = alive;
+        if (weight < minWeight || weight > maxWeight){
+            isAlive = false;
+        } else {
+            isAlive = alive;
+        }
     }
 
     public boolean isAlive() {
@@ -35,15 +39,29 @@ public class Cat
 
     //создадим переменную имени кошки для урока 7 (копирование объекта)
     private String name;
-    public void setName(String name){
-        this.name = name;
+    public void setName(String name)
+    {
+        if (name.isEmpty()){
+            System.out.println("имя не может быть пустым. Дайте имя кошке");
+        }
+        else {
+            this.name = name;
+        }
     }
     public String getName(){
         return name;
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public void setWeight(double weight)
+    {
+        setMinWeight(1000.0);
+        setMaxWeight(9000.0);
+        if (weight < getMinWeight() || weight > getMaxWeight()){
+            System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+        }
+        else {
+            this.weight = weight;
+        }
     }
     public Double getWeight() {
         return weight;
@@ -51,11 +69,24 @@ public class Cat
 
     //урок 7 создадим конструктор (для копирования параметров кошек при создании новых кошек)
     public Cat(String name, double weight, Color color){
-        this.name = name;
-        this.weight = weight;
-        this.color = color;
-        isAlive = true;
-        count++;                // и опять добавим счетчик для контроля поголовья котов
+        if (name.isEmpty()){
+            System.out.println("имя не может быть пустым. Дайте имя кошке");
+        }
+        else {
+            setMinWeight(1000.0);
+            setMaxWeight(9000.0);
+            if (weight < getMinWeight() || weight > getMaxWeight()){
+                System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+            }
+            else {
+                this.name = name;
+                this.weight = weight;
+                this.color = color;
+                isAlive = true;
+                count++;                // и опять добавим счетчик для контроля поголовья котов
+            }
+
+        }
     }
 
 
@@ -72,9 +103,16 @@ public class Cat
 
     //урок 5: создадим конструктор для установки веса кошки при ее создании
     public Cat(double weight){
-        this.weight = weight;
-        isAlive = true;
-        count++;
+        setMinWeight(1000.0);
+        setMaxWeight(9000.0);
+        if (weight < getMinWeight() || weight > getMaxWeight()){
+            System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+        }
+        else {
+            this.weight = weight;
+            isAlive = true;
+            count++;
+        }
     }
 
     public void meow()
@@ -97,11 +135,7 @@ public class Cat
 
     public void feed(Double amount)
     {
-        if (weight < minWeight) {
-            setAlive(false);
-            System.out.println("Кошка не может есть, она - " + getStatus());
-        }
-        else if (weight > maxWeight){
+        if (weight < minWeight || weight > maxWeight) {
             setAlive(false);
             System.out.println("Кошка не может есть, она - " + getStatus());
         }
@@ -132,13 +166,18 @@ public class Cat
     }
 
 
-
+    public void setMinWeight(double minWeight) {
+        this.minWeight = minWeight;
+    }
 
     public double getMinWeight()  //создадим геттер для minWeight
     {
         return minWeight;
     }
 
+    public void setMaxWeight(double maxWeight) {
+        this.maxWeight = maxWeight;
+    }
 
     public double getMaxWeight()     //создадим геттер для maxWeight
     {

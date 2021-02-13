@@ -187,7 +187,23 @@ public class Loader
         System.out.println("cat3: "+cat3.isAlive());
         Cat.getCountCat();
 
-
+        //протестируем setAlive и защиту других сеттеров и конструкторов
+        System.out.println();
+        System.out.println("протестируем setAlive и защиту других сеттеров и конструкторов");
+        cat1.setAlive(true);
+        System.out.println("cat1: "+cat1.isAlive());
+        Cat.getCountCat();
+        cat2.setName("");
+        System.out.println("cat2 name: "+cat2.getName());
+        Cat cat14 = new Cat(-600.0);
+        cat14.setWeight(500.0);
+        System.out.println("cat14 weight: " + cat14.getWeight());
+        Cat.getCountCat();
+        Cat cat15 = new Cat("Murka", 4500.0, Color.BEIGE);
+        Cat cat16 = new Cat("", 3500,Color.BLACK);
+        Cat cat17 = new Cat("Naff", -3200.0, Color.WIGHT);
+        Cat.getCountCat();
+        System.out.println(cat17.getName() + " " +cat17.getWeight() + " " + cat17.getColor() + " " + cat17.isAlive());
 
 
     }
