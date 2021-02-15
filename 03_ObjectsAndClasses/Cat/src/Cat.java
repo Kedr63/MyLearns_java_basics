@@ -4,13 +4,10 @@ public class Cat
     private double originWeight;
     private double weight;
 
-    private double minWeight;
-    private double maxWeight;
-
     private boolean isAlive;
 
     public void setAlive(boolean alive) {
-        if (weight < minWeight || weight > maxWeight){
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
             isAlive = false;
         } else {
             isAlive = alive;
@@ -54,10 +51,8 @@ public class Cat
 
     public void setWeight(double weight)
     {
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
-        if (weight < minWeight || weight > maxWeight){
-            System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
+            System.out.println("вес не может быть меньше: " + MIN_WEIGHT + " и больше: " + MAX_WEIGHT + ". Установите корректный вес.");
         }
         else {
             this.weight = weight;
@@ -73,10 +68,8 @@ public class Cat
             System.out.println("имя не может быть пустым. Дайте имя кошке");
         }
         else {
-            minWeight = 1000.0;
-            maxWeight = 9000.0;
-            if (weight < minWeight || weight > maxWeight){
-                System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
+            if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
+                System.out.println("вес не может быть меньше: " + MIN_WEIGHT + " и больше: " + MAX_WEIGHT + ". Установите корректный вес.");
             }
             else {
                 this.name = name;
@@ -94,8 +87,6 @@ public class Cat
     {
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
         isAlive = true;
         count++;            //при создании кошки кол-во > на 1 кошку
 
@@ -103,10 +94,8 @@ public class Cat
 
     //урок 5: создадим конструктор для установки веса кошки при ее создании
     public Cat(double weight){
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
-        if (weight < minWeight || weight > maxWeight){
-            System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
+            System.out.println("вес не может быть меньше: " + MIN_WEIGHT + " и больше: " + MAX_WEIGHT + ". Установите корректный вес.");
         }
         else {
             this.weight = weight;
@@ -117,14 +106,14 @@ public class Cat
 
     public void meow()
     {
-        if (weight < minWeight || weight > maxWeight){
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
             setAlive(false);
             System.out.println("Кошка не может мяукать, она - " + getStatus());
         }
         else {
             System.out.println("Meow");
             weight = weight - 1;
-            if (weight < minWeight){
+            if (weight < MIN_WEIGHT){
                 setAlive(false);
                 count--;
             }
@@ -135,14 +124,14 @@ public class Cat
 
     public void feed(Double amount)
     {
-        if (weight < minWeight || weight > maxWeight) {
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT) {
             setAlive(false);
             System.out.println("Кошка не может есть, она - " + getStatus());
         }
         else {
             weight = weight + amount;
             foodWeight = foodWeight + amount;  //добавим в метод счетчик суммирования съеденной еды
-            if (weight > maxWeight){        //если после последнего приема еды вес уйдет за жизненные параметры, то кошка представится и отминусуется
+            if (weight > MAX_WEIGHT){        //если после последнего приема еды вес уйдет за жизненные параметры, то кошка представится и отминусуется
                 setAlive(false);
                 count--;
             }
@@ -152,13 +141,13 @@ public class Cat
 
     public void drink(Double amount)
     {
-        if (weight < minWeight || weight > maxWeight) {
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT) {
             setAlive(false);
             System.out.println("Кошка не может пить, она - " + getStatus());
         }
         else{
             weight = weight + amount;
-            if (weight > maxWeight){
+            if (weight > MAX_WEIGHT){
                 setAlive(false);
                 count--;
             }
@@ -166,30 +155,13 @@ public class Cat
     }
 
 
-    public void setMinWeight(double minWeight) {
-        this.minWeight = minWeight;
-    }
-
-    public double getMinWeight()  //создадим геттер для minWeight
-    {
-        return minWeight;
-    }
-
-    public void setMaxWeight(double maxWeight) {
-        this.maxWeight = maxWeight;
-    }
-
-    public double getMaxWeight()     //создадим геттер для maxWeight
-    {
-        return maxWeight;
-    }
 
     public String getStatus()
     {
-        if(weight < minWeight) {
+        if(weight < MIN_WEIGHT) {
             return "Dead";
         }
-        else if(weight > maxWeight) {
+        else if(weight > MAX_WEIGHT) {
             return "Exploded";
         }
         else if(weight > originWeight) {
@@ -209,14 +181,14 @@ public class Cat
 
     //создадим метод: кошка пописала
     public void pee()   {
-        if (weight < minWeight || weight > maxWeight){
+        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
             setAlive(false);
             System.out.println("Кошка не сможет сходить в туалет, она - " + getStatus());
         }
         else {
             System.out.println("Cat pee");
             weight = weight - weight / 100;
-            if (weight < minWeight){
+            if (weight < MIN_WEIGHT){
                 setAlive(false);
                 count--;
             }

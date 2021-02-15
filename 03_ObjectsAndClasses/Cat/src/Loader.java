@@ -30,7 +30,7 @@ public class Loader
 
         // замяукать cat1
         System.out.println("Cat1 - weight before meow: " + cat1.getWeight());
-        while (cat1.getWeight() > cat1.getMinWeight()) {
+        while (cat1.getWeight() > Cat.MIN_WEIGHT) {
             cat1.meow();
             System.out.println("Cat1 decreased by: "+ cat1.getWeight() + "  (Cat1 meow and " + cat1.getStatus() + ")");
         }
@@ -40,7 +40,7 @@ public class Loader
 
         // закормить Cat2
         System.out.printf("Cat2 - weight before eating: %.2f \n", cat2.getWeight());  // округлим вес до 2 знаков после запятой и перенесем строку
-        while (cat2.getWeight() < cat2.getMaxWeight()){
+        while (cat2.getWeight() < Cat.MAX_WEIGHT){
             cat2.feed(75.0);
             System.out.printf("Cat2 - weight after eating: %.2f ", cat2.getWeight());
             System.out.println("   (Cat2 ate and " + cat2.getStatus() + ")");
@@ -153,7 +153,7 @@ public class Loader
         //потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)
         System.out.println();
         System.out.println("потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)");
-        System.out.println("закормленная cat2: " + cat2.getStatus() + " " + cat2.getWeight() + " " + cat2.getMaxWeight());
+        System.out.println("закормленная cat2: " + cat2.getStatus() + " " + cat2.getWeight());
         cat2.feed(150.0);
         Cat.getCountCat();
         cat2.feed(500.0);
