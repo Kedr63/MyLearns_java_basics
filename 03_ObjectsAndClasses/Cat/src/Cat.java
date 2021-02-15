@@ -54,10 +54,10 @@ public class Cat
 
     public void setWeight(double weight)
     {
-        setMinWeight(1000.0);
-        setMaxWeight(9000.0);
-        if (weight < getMinWeight() || weight > getMaxWeight()){
-            System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+        minWeight = 1000.0;
+        maxWeight = 9000.0;
+        if (weight < minWeight || weight > maxWeight){
+            System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
         }
         else {
             this.weight = weight;
@@ -73,10 +73,10 @@ public class Cat
             System.out.println("имя не может быть пустым. Дайте имя кошке");
         }
         else {
-            setMinWeight(1000.0);
-            setMaxWeight(9000.0);
-            if (weight < getMinWeight() || weight > getMaxWeight()){
-                System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+            minWeight = 1000.0;
+            maxWeight = 9000.0;
+            if (weight < minWeight || weight > maxWeight){
+                System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
             }
             else {
                 this.name = name;
@@ -103,10 +103,10 @@ public class Cat
 
     //урок 5: создадим конструктор для установки веса кошки при ее создании
     public Cat(double weight){
-        setMinWeight(1000.0);
-        setMaxWeight(9000.0);
-        if (weight < getMinWeight() || weight > getMaxWeight()){
-            System.out.println("вес не может быть меньше: " + getMinWeight() + " и больше: " + getMaxWeight() + ". Установите корректный вес.");
+        minWeight = 1000.0;
+        maxWeight = 9000.0;
+        if (weight < minWeight || weight > maxWeight){
+            System.out.println("вес не может быть меньше: " + minWeight + " и больше: " + maxWeight + ". Установите корректный вес.");
         }
         else {
             this.weight = weight;
