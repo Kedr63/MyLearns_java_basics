@@ -51,7 +51,7 @@ public class Loader
         //урок 2 'method, parameters and return'
 
         Cat cat7 = new Cat();
-        Cat.foodWeight = 0;
+        System.out.println(cat7.getFoodWeight());
 
 
         System.out.println("Cat weight begin: " + cat7.getWeight().intValue());
@@ -68,7 +68,7 @@ public class Loader
 
         //урок 3 'static methods and variables'
 
-        Cat.getCountCat();  //получим количество живых кошек
+        Cat.printCountCat();  //получим количество живых кошек
 
         System.out.println();
 
@@ -114,17 +114,17 @@ public class Loader
 
         //урок 4
         System.out.println();
-        System.out.println("Кошка имеет " + cat1.getColor(Color.GREY) + " раскрас");
-        System.out.println("Cat have " + cat3.getColor(Color.WIGHT) + " color");
+        System.out.println("Кошка имеет " + cat1.getColor() + " раскрас");
+        System.out.println("Cat have " + cat3.getColor() + " color");
 
         //урок 5: 'objects creation and constructor'
         System.out.println();
-        Cat.getCountCat(); //количество кошек перед рождением котят
+        Cat.printCountCat(); //количество кошек перед рождением котят
         getKitten("Снежок");
         getKitten("Барсик");
         getKitten("Рыжик");
         getKitten("Муська");
-        Cat.getCountCat();  //заодно проверим сколько стало кошек
+        Cat.printCountCat();  //заодно проверим сколько стало кошек
 
 
         //урок 7 глубокая копия объекта (с помощью конструктора)
@@ -134,33 +134,31 @@ public class Loader
         System.out.println(cat10.getName() + " " + cat10.getWeight() + " " +  cat10.getColor());
         Cat cat11 = new Cat(cat10.getName(), cat10.getWeight(), cat10.getColor());
         System.out.println(cat11.getName() + " " + cat11.getWeight() + " " +  cat11.getColor());
-        Cat.getCountCat();
+        Cat.printCountCat();
 
         System.out.println();
         System.out.println("Копирование объектов сеттерами и геттерами");
-        Cat cat12 = new Cat();
+        Cat cat12 = new Cat(3100.0);
         cat12.setName("Муська");
-        cat12.setWeight(1650.0);
         cat12.setColor(Color.BLACK);
         System.out.println(cat12.getName() + " " + cat12.getWeight() + " " + cat12.getColor());
-        Cat cat13 = new Cat();
+        Cat cat13 = new Cat(cat12.getWeight());
         cat13.setName(cat12.getName());
-        cat13.setWeight(cat12.getWeight());
         cat13.setColor(cat12.getColor());
         System.out.println(cat13.getName() + " " + cat13.getWeight() + " " + cat13.getColor());
-        Cat.getCountCat();
+        Cat.printCountCat();
 
         //потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)
         System.out.println();
         System.out.println("потестируем работу счетчика кошек и выведем их состояние (жива- true, нежива- false)");
         System.out.println("закормленная cat2: " + cat2.getStatus() + " " + cat2.getWeight());
         cat2.feed(150.0);
-        Cat.getCountCat();
+        Cat.printCountCat();
         cat2.feed(500.0);
-        Cat.getCountCat();
+        Cat.printCountCat();
         cat1.meow();
         System.out.println(cat1.getWeight()+" "+cat1.isAlive());
-        Cat.getCountCat();
+        Cat.printCountCat();
         System.out.println();
         cat1.drink(85.0);
         cat1.meow();
@@ -181,28 +179,24 @@ public class Loader
         System.out.println("cat11: "+cat11.isAlive());
         System.out.println("cat12: "+cat12.isAlive());
         System.out.println("cat13: "+cat13.isAlive());
-        Cat.getCountCat();
+        Cat.printCountCat();
         cat3.feed(8000.0);
         cat3.feed(500.0);
         System.out.println("cat3: "+cat3.isAlive());
-        Cat.getCountCat();
+        Cat.printCountCat();
 
-        //протестируем setAlive и защиту других сеттеров и конструкторов
+        //протестируем защиту сеттеров и конструкторов
         System.out.println();
-        System.out.println("протестируем setAlive и защиту других сеттеров и конструкторов");
-        cat1.setAlive(true);
-        System.out.println("cat1: "+cat1.isAlive());
-        Cat.getCountCat();
+        System.out.println("протестируем защиту сеттеров и конструкторов");
         cat2.setName("");
         System.out.println("cat2 name: "+cat2.getName());
         Cat cat14 = new Cat(-600.0);
-        cat14.setWeight(500.0);
         System.out.println("cat14 weight: " + cat14.getWeight());
-        Cat.getCountCat();
+        Cat.printCountCat();
         Cat cat15 = new Cat("Murka", 4500.0, Color.BEIGE);
         Cat cat16 = new Cat("", 3500,Color.BLACK);
         Cat cat17 = new Cat("Naff", -3200.0, Color.WIGHT);
-        Cat.getCountCat();
+        Cat.printCountCat();
         System.out.println(cat17.getName() + " " +cat17.getWeight() + " " + cat17.getColor() + " " + cat17.isAlive());
 
 

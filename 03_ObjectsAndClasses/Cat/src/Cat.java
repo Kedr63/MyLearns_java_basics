@@ -6,61 +6,20 @@ public class Cat
 
     private boolean isAlive;
 
-    public void setAlive(boolean alive) {
-        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
-            isAlive = false;
-        } else {
-            isAlive = alive;
-        }
-    }
-
-    public boolean isAlive() {
-        return isAlive;
-    }
-
-    public static double foodWeight; // объявим переменную - вес еды для кошки
+    private double foodWeight; // объявим переменную - вес еды для кошки
     public static int count;         // счетчик кошек
 
     public static final int EYES_COUNT = 2;         //создадим константы
     public static final double MAX_WEIGHT = 9000.0;
     public static final double MIN_WEIGHT = 1000.0;
 
-    //создадим переменную окраса кошки и сеттер и геттер для нее
+    //создадим переменную окраса кошки
     private Color color;
-    public void setColor(Color color) {
-        this.color = color;
-    }
-    public Color getColor() {
-        return color;
-    }
 
     //создадим переменную имени кошки для урока 7 (копирование объекта)
     private String name;
-    public void setName(String name)
-    {
-        if (name.isEmpty()){
-            System.out.println("имя не может быть пустым. Дайте имя кошке");
-        }
-        else {
-            this.name = name;
-        }
-    }
-    public String getName(){
-        return name;
-    }
 
-    public void setWeight(double weight)
-    {
-        if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
-            System.out.println("вес не может быть меньше: " + MIN_WEIGHT + " и больше: " + MAX_WEIGHT + ". Установите корректный вес.");
-        }
-        else {
-            this.weight = weight;
-        }
-    }
-    public Double getWeight() {
-        return weight;
-    }
+
 
     //урок 7 создадим конструктор (для копирования параметров кошек при создании новых кошек)
     public Cat(String name, double weight, Color color){
@@ -76,7 +35,7 @@ public class Cat
                 this.weight = weight;
                 this.color = color;
                 isAlive = true;
-                count++;                // и опять добавим счетчик для контроля поголовья котов
+                count++;                //добавим счетчик для контроля поголовья котов
             }
 
         }
@@ -103,18 +62,39 @@ public class Cat
             count++;
         }
     }
+    
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setName(String name)
+    {
+        if (name.isEmpty()){
+            System.out.println("имя не может быть пустым. Дайте имя кошке");
+        }
+        else {
+            this.name = name;
+        }
+    }
+    public String getName(){
+        return name;
+    }
+
+    public Double getWeight() {
+        return weight;
+    }
 
     public void meow()
     {
         if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
-            setAlive(false);
             System.out.println("Кошка не может мяукать, она - " + getStatus());
         }
         else {
             System.out.println("Meow");
             weight = weight - 1;
             if (weight < MIN_WEIGHT){
-                setAlive(false);
+                isAlive = false;
                 count--;
             }
         }
@@ -125,14 +105,13 @@ public class Cat
     public void feed(Double amount)
     {
         if (weight < MIN_WEIGHT || weight > MAX_WEIGHT) {
-            setAlive(false);
             System.out.println("Кошка не может есть, она - " + getStatus());
         }
         else {
             weight = weight + amount;
             foodWeight = foodWeight + amount;  //добавим в метод счетчик суммирования съеденной еды
             if (weight > MAX_WEIGHT){        //если после последнего приема еды вес уйдет за жизненные параметры, то кошка представится и отминусуется
-                setAlive(false);
+                isAlive = false;
                 count--;
             }
         }
@@ -142,13 +121,12 @@ public class Cat
     public void drink(Double amount)
     {
         if (weight < MIN_WEIGHT || weight > MAX_WEIGHT) {
-            setAlive(false);
             System.out.println("Кошка не может пить, она - " + getStatus());
         }
         else{
             weight = weight + amount;
             if (weight > MAX_WEIGHT){
-                setAlive(false);
+                isAlive = false;
                 count--;
             }
         }
@@ -182,14 +160,13 @@ public class Cat
     //создадим метод: кошка пописала
     public void pee()   {
         if (weight < MIN_WEIGHT || weight > MAX_WEIGHT){
-            setAlive(false);
             System.out.println("Кошка не сможет сходить в туалет, она - " + getStatus());
         }
         else {
             System.out.println("Cat pee");
             weight = weight - weight / 100;
             if (weight < MIN_WEIGHT){
-                setAlive(false);
+                isAlive = false;
                 count--;
             }
 
@@ -197,14 +174,23 @@ public class Cat
 
     }
 
-    //создадим метод (геттер) возврата живых кошек
-    public static void getCountCat()
-    {
-        System.out.println("Количество кошек: " + count);
+    //создадим метод (геттер) возврата живых кошек (если придется арифметически где-то применять это число)
+    public static int getCountCat(){
+        return count;
     }
 
-    //создадим геттер получения раскраса кошки
-    public Color getColor(Color color){
+    //создадим метод распечатывания количества живых кошек (для получения информации)
+    public static void printCountCat()
+    {
+        System.out.println("количество живых кошек: " + count);
+    }
+
+
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+    public Color getColor() {
         return color;
     }
 
