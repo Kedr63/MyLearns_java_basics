@@ -4,7 +4,7 @@ public class Main {
         Container container = new Container();
         container.count += 7843;
 
-        int sum = sumDigits(0);
+        int sum = sumDigits(5678);
 
         System.out.println(sum);
     }
@@ -26,14 +26,9 @@ public class Main {
             String string = number.toString();           //переводим число в строку
             int sum = 0;
             for (int i = 0; i < string.length(); i++) {
-
-                /*  char ch = string.charAt(i);             //циклом каждое строчное значение переведем в символьное значение
-                String string2 = String.valueOf(ch);    //теперь символьное значение переведем в строчное значение, для того
-                int n = Integer.parseInt(string2);      //чтобы это строчное значение перевести в число и провести арифметику
-                sum = sum + n;  */
-                // заменим эти строки одной ниже (и закомментируем их)
-
-                sum = sum + Integer.parseInt(String.valueOf(string.charAt(i)));
+                char ch = string.charAt(i);             //циклом каждое строчное значение переведем в символьное значение
+                int n = Character.getNumericValue(ch);    //методом класса Character переведем символьное значение в int
+                sum = sum + n;
             }
             return sum;
         }
