@@ -16,11 +16,11 @@ public class Main {
         long l1 = Long.MIN_VALUE;
         System.out.println(l + " " + l1);
 
-        float f = Float.MIN_VALUE;
+        float f = - Float.MAX_VALUE;
         float f2 = Float.MAX_VALUE;
         System.out.println(f + " " + f2);
 
-        double d = Double.MIN_VALUE;
+        double d = - Double.MAX_VALUE;
         double d1 = Double.MAX_VALUE;
         System.out.println(d + " " + d1);
 
