@@ -4,12 +4,12 @@ public class Truck {
     private int idNumberTruck;                  //индентификационный номер грузовика
 
 
-    public int getIdNumberTruck() {
+   public int getIdNumberTruck() {
         return idNumberTruck;
     }
 
     public Truck() {
         count++;
-        idNumberTruck = count;  //индентификационный номер грузовика приравняем к порядковому номеру грузовика при создании
+       idNumberTruck = count;  //индентификационный номер грузовика приравняем к порядковому номеру грузовика при создании
     }
 }

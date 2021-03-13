@@ -1,8 +1,10 @@
+
 import java.util.Scanner;
 
 public class Main2 {
     public static void main(String[] args) {
-        System.out.println("введите количество ящиков для перевозки: ");
+
+        //System.out.println("введите количество ящиков для перевозки: ");
 
         Scanner scanner = new Scanner(System.in);
         String boxes = scanner.nextLine();
@@ -36,5 +38,8 @@ public class Main2 {
                 + System.lineSeparator() + "грузовиков - " + countTruck + " шт."
                 + System.lineSeparator() + "контейнеров - " + countContainer + " шт.");
 
+
+
     }
 }
+

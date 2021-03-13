@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TrucksContainersAndBoxes" />
         <module name="01_sumdigits" />
+        <module name="GeometryCalculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
+      <module name="GeometryCalculator" target="11" />
+      <module name="TrucksContainersAndBoxes" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

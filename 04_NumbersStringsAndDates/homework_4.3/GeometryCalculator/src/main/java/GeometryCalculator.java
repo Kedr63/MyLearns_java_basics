@@ -18,7 +18,7 @@ public class GeometryCalculator {
     public static double getTriangleSquare(double a, double b, double c) {
         double p = (a + b + c) / 2.0;
         double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        if (a + b > c && a + c > b && b + c > a) {
+        if (isTrianglePossible(a,b,c)) {
             return s;
         } else {
             return -1;
