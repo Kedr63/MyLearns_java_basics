@@ -7,13 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TrucksContainersAndBoxes" />
+        <module name="FullNameFormatter" />
         <module name="01_sumdigits" />
+        <module name="BirthdayCalendar" />
         <module name="GeometryCalculator" />
+        <module name="MaskingInformation" />
+        <module name="TotalEarningsCalculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
+      <module name="BirthdayCalendar" target="11" />
+      <module name="FullNameFormatter" target="11" />
       <module name="GeometryCalculator" target="11" />
+      <module name="MaskingInformation" target="11" />
+      <module name="TotalEarningsCalculator" target="11" />
       <module name="TrucksContainersAndBoxes" target="11" />
     </bytecodeTargetLevel>
   </component>
