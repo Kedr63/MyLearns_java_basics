@@ -3,12 +3,16 @@ import java.math.RoundingMode;
 import java.util.Arrays;
 
 public class Hospital {
+    public static final int MIN_TEMPERATURE = 32;
+    public static final int MAX_TEMPERATURE = 42;
+    public static final float LOW_NORM_TEMPERATURE = 36.2F;
+    public static final float UP_NORM_TEMPERATURE = 36.9F;
 
     public static float[] generatePatientsTemperatures(int patientsCount) {
         //TODO: напишите метод генерации массива температур пациентов
         float[] floats = new float[patientsCount];
         for (int i = 0; i < floats.length; i++) {
-            float generateTemperature = (float) (32 + Math.random() * (40 - 32));
+            float generateTemperature = (float) (MIN_TEMPERATURE + Math.random() * (MAX_TEMPERATURE - MIN_TEMPERATURE));
 
             //округлим до 1 знака после запятой
             BigDecimal result = new BigDecimal(generateTemperature);
@@ -26,7 +30,7 @@ public class Hospital {
         int countNormalPatients = 0;
         float sumTemperature = 0f;
         for (float temperatureDatum : temperatureData) {
-            if (temperatureDatum >= 36.2F && temperatureDatum <= 36.9F) {
+            if (temperatureDatum >= LOW_NORM_TEMPERATURE && temperatureDatum <= UP_NORM_TEMPERATURE) {
                 countNormalPatients++;
             }
             sumTemperature = sumTemperature + temperatureDatum;
