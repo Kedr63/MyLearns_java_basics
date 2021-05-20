@@ -21,6 +21,7 @@
         <module name="TwoDimensionalArray" />
         <module name="GeometryCalculator" />
         <module name="Hospital" />
+        <module name="TodoList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="PhoneCleaner" target="11" />
       <module name="ReverseArray" target="11" />
       <module name="SplitText" target="11" />
+      <module name="TodoList" target="11" />
       <module name="TotalEarningsCalculator" target="11" />
       <module name="TotalEarningsCalculatorReqExp" target="11" />
       <module name="TrucksContainersAndBoxes" target="11" />
