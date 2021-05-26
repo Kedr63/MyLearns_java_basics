@@ -34,9 +34,9 @@ public class TodoList {
         }
     }
 
-    public ArrayList<String> getTodos() {
+    public List<String> getTodos() {
         // TODO: вернуть список дел
-        return (ArrayList<String>) stringList;
+        return stringList;
     }
 
     public boolean validateIndex (int index){

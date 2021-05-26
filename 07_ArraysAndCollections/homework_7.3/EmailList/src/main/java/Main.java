@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
-    public static final String WRONG_EMAIL_ANSWER = "Неверный формат email";
-    
+    //создадим наш emailList, где будут храниться уникальные множества email
+    private static final EmailList emailList = new EmailList();
+
     /* TODO:
         Пример вывода списка Email, после ввода команды LIST в консоль:
         test@test.com
@@ -18,16 +19,28 @@ public class Main {
     */
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        
+
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("0")) {
                 break;
             }
-            
+
             //TODO: write code here
-            
+            if (input.contains("ADD")) {
+                String cutToFormatEmail = input.replaceAll("ADD(\\s+)?", "").trim(); //обрезаем строку до формата Email
+                emailList.add(cutToFormatEmail);
+            }
+
+            if (input.contains("LIST")) {
+                for (String email : emailList.getSortedEmails()) {
+                    System.out.println(email);
+                }
+            }
         }
     }
 }
+
+

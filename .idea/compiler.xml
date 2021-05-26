@@ -10,6 +10,7 @@
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="ReverseArray" />
         <module name="MaskingInformationReqExp" />
+        <module name="EmailList" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
         <module name="TotalEarningsCalculator" />
@@ -27,6 +28,7 @@
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
       <module name="BirthdayCalendar" target="11" />
+      <module name="EmailList" target="11" />
       <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="GeometryCalculator" target="11" />
