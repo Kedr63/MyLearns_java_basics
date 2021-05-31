@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PhoneBook" />
         <module name="PhoneCleaner" />
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="ReverseArray" />
@@ -35,6 +36,7 @@
       <module name="Hospital" target="11" />
       <module name="MaskingInformation" target="11" />
       <module name="MaskingInformationReqExp" target="11" />
+      <module name="PhoneBook" target="11" />
       <module name="PhoneCleaner" target="11" />
       <module name="ReverseArray" target="11" />
       <module name="SplitText" target="11" />

@@ -3,8 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.2_iterate_elements_of_array/7.2_iterate_elements_of_array.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.2_iterate_elements_of_array/7.2_iterate_elements_of_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.3_iterate_array_in_reverse_order/7.3_iterate_array_in_reverse_order.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.3_iterate_array_in_reverse_order/7.3_iterate_array_in_reverse_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.4_arrays_ofArrays/7.4_arrays_ofArrays.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.4_arrays_ofArrays/7.4_arrays_ofArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.5_homework_7_1/7.5_homework_7_1.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.5_homework_7_1/7.5_homework_7_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.6_list_of_elements/7.6_list_of_elements.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.6_list_of_elements/7.6_list_of_elements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.7_homework_7_2/7.7_homework_7_2.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.7_homework_7_2/7.7_homework_7_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.8_SET_of_unique_elements/7.8_SET_of_unique_elements.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.8_SET_of_unique_elements/7.8_SET_of_unique_elements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.9_homework_7_3/7.9_homework_7_3.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.9_homework_7_3/7.9_homework_7_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/Airports/Airports.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/Airports/Airports.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/Alphabet/Alphabet.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/Alphabet/Alphabet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" />
@@ -14,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/PhoneCleaner/PhoneCleaner.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/PhoneCleaner/PhoneCleaner.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/ReverseArray/ReverseArray.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/ReverseArray/ReverseArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/RoadController/RoadController.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/RoadController/RoadController.iml" />
@@ -23,9 +34,6 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/TotalEarningsCalculatorReqExp/TotalEarningsCalculatorReqExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/TotalEarningsCalculatorReqExp/TotalEarningsCalculatorReqExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/_обход_массивов_в_обратном_порядке_7_3/_обход_массивов_в_обратном_порядке_7_3.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/_обход_массивов_в_обратном_порядке_7_3/_обход_массивов_в_обратном_порядке_7_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/_перебор_элементов_массива_7_2/_перебор_элементов_массива_7_2.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/_перебор_элементов_массива_7_2/_перебор_элементов_массива_7_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/_создание_массивов_7_1/_создание_массивов_7_1.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/_создание_массивов_7_1/_создание_массивов_7_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_basics.iml" filepath="$PROJECT_DIR$/java_basics.iml" />
     </modules>

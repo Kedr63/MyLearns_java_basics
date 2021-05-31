@@ -2,8 +2,8 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../lessons/_создание_массивов_7_1">
-      <sourceFolder url="file://$MODULE_DIR$/../../lessons/_создание_массивов_7_1/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../../lessons/7.1_create_arrays">
+      <sourceFolder url="file://$MODULE_DIR$/../../lessons/7.1_create_arrays/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

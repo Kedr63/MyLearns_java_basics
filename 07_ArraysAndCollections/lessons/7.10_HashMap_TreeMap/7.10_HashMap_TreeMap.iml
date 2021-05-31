@@ -2,8 +2,8 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../7.3_iterate_array_in_reverse_order">
-      <sourceFolder url="file://$MODULE_DIR$/../7.3_iterate_array_in_reverse_order/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../7.10_HashMap_TreeMap">
+      <sourceFolder url="file://$MODULE_DIR$/../7.10_HashMap_TreeMap/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

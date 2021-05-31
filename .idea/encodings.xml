@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/GeometryCalculator/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/FullNameFormatter/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/TotalEarningsCalculator/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/FullNameFormatterRegExp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/PhoneCleaner/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/SplitText/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/TotalEarningsCalculatorReqExp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1_char/IntegerExperiments/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3_Math_%/GeometryCalculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3_Math_%/TrucksContainersAndBoxes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/FullNameFormatter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/MaskingInformation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/TotalEarningsCalculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/FullNameFormatterRegExp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/MaskingInformationReqExp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/PhoneCleaner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/SplitText/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/TotalEarningsCalculatorReqExp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6_Calendar/BirthdayCalendar/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/ReverseArray/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.2/TodoList/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java" charset="UTF-8" />
   </component>
 </project>
