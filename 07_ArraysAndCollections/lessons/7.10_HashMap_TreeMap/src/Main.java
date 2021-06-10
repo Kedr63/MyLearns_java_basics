@@ -33,7 +33,7 @@ public class Main {
     }
 
     private static void mapPrint(Map<String, Integer> map) {   //создадим метод для печати Map, чтоб не загромождать основной код
-        for (String key : map.keySet()) {
+        for (String key : map.keySet()) {                     //.keySet() - возвращает множество (Set) ключей
             System.out.println(key + " => " + map.get(key));  // так перебераем ключи Map (чаще встречается)
         }
 

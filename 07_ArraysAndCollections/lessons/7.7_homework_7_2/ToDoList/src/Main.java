@@ -15,9 +15,9 @@ public class Main {
 
             if (todo.contains("ADD")) {
                 if (todo.matches("ADD(\\s+)?\\d+.+")) {
-                    int index = Integer.parseInt(todo.replaceAll("ADD(\\s+)?(\\d+).+", "$2")); // извлекаем из введенной строки число-индекс
-                    todoList.add(index, todo);   // добавляем в список по индексу указанному при вводе
-                } else todoList.add(todo);   // иначе, добавляем в конец списка
+                    int index = Integer.parseInt(todo.replaceAll("ADD(\\s+)?(\\d+).+", "$2"));
+                    todoList.add(index, todo);
+                } else todoList.add(todo);
             }
 
             if (todo.contains("LIST")) {
@@ -37,4 +37,5 @@ public class Main {
             }
         }
     }
+
 }
