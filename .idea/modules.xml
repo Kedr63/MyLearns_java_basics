@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.2_iterate_elements_of_array/7.2_iterate_elements_of_array.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.2_iterate_elements_of_array/7.2_iterate_elements_of_array.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.3_iterate_array_in_reverse_order/7.3_iterate_array_in_reverse_order.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.3_iterate_array_in_reverse_order/7.3_iterate_array_in_reverse_order.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.5/CoolNumber/CoolNumber.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.5/CoolNumber/CoolNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/FullNameFormatter/FullNameFormatter.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/FullNameFormatter/FullNameFormatter.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/FullNameFormatterRegExp/FullNameFormatterRegExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/FullNameFormatterRegExp/FullNameFormatterRegExp.iml" />

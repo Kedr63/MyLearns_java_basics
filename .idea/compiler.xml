@@ -19,6 +19,7 @@
         <module name="FullNameFormatter" />
         <module name="01_sumdigits" />
         <module name="FullNameFormatterRegExp" />
+        <module name="CoolNumber" />
         <module name="BirthdayCalendar" />
         <module name="TwoDimensionalArray" />
         <module name="GeometryCalculator" />
@@ -29,6 +30,7 @@
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
       <module name="BirthdayCalendar" target="11" />
+      <module name="CoolNumber" target="11" />
       <module name="EmailList" target="11" />
       <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />

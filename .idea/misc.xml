@@ -21,8 +21,13 @@
         <option value="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.2/TodoList/pom.xml" />
         <option value="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/pom.xml" />
         <option value="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/pom.xml" />
+        <option value="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.5/CoolNumber/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java/_TreeSet_create_" />
+    <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java/_Task__Map_create" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
