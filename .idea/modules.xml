@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.1_inheritance_of_java_classes/10.1_inheritance_of_java_classes.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.1_inheritance_of_java_classes/10.1_inheritance_of_java_classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.3_Access modifiers/10.3_Access modifiers.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.3_Access modifiers/10.3_Access modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" />
@@ -16,7 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.9_homework_7_3/7.9_homework_7_3.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.9_homework_7_3/7.9_homework_7_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/Airports/Airports.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/Airports/Airports.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/Alphabet/Alphabet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6/BirthdayCalendar/BirthdayCalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6_Calendar/BirthdayCalendar/BirthdayCalendar.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.6_Calendar/BirthdayCalendar/BirthdayCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/Cat/Cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.5/CoolNumber/CoolNumber.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.5/CoolNumber/CoolNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/EmailList.iml" />
@@ -24,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/FullNameFormatterRegExp/FullNameFormatterRegExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/FullNameFormatterRegExp/FullNameFormatterRegExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/GeometryCalculator/GeometryCalculator.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/GeometryCalculator/GeometryCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/Inheritance1.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/Inheritance1.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" />
