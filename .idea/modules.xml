@@ -3,8 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.10_Интерфейс Comparator/10.10_Интерфейс Comparator.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.10_Интерфейс Comparator/10.10_Интерфейс Comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.11_Краткая реализация_интерфейсов/10.11_Краткая реализация_интерфейсов.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.11_Краткая реализация_интерфейсов/10.11_Краткая реализация_интерфейсов.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.12_Интерфейсы_Map_и_Set/10.12_Интерфейсы_Map_и_Set.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.12_Интерфейсы_Map_и_Set/10.12_Интерфейсы_Map_и_Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.1_inheritance_of_java_classes/10.1_inheritance_of_java_classes.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.1_inheritance_of_java_classes/10.1_inheritance_of_java_classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.3_Access modifiers/10.3_Access modifiers.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.3_Access modifiers/10.3_Access modifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.5_Abstract class/10.5_Abstract class.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.5_Abstract class/10.5_Abstract class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.7_Interfaces/10.7_Interfaces.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.7_Interfaces/10.7_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.8_Polymorphism/10.8_Polymorphism.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.8_Polymorphism/10.8_Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.9_Interface_Comparable/10.9_Interface_Comparable.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.9_Interface_Comparable/10.9_Interface_Comparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.10_HashMap_TreeMap/7.10_HashMap_TreeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.12_Search_and_sorting/7.12_Search_and_sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/lessons/7.1_create_arrays/7.1_create_arrays.iml" />
@@ -27,6 +34,9 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/GeometryCalculator/GeometryCalculator.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/GeometryCalculator/GeometryCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/Hospital/Hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/Inheritance1.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/Inheritance1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3/Inheritance3.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3/Inheritance3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_2_case/Inheritance3 (1).iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_2_case/Inheritance3 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_three_case/Inheritance3 (2).iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_three_case/Inheritance3 (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4/MaskingInformation/MaskingInformation.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/MaskingInformationReqExp/MaskingInformationReqExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/PhoneBook.iml" />
@@ -40,8 +50,12 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/TotalEarningsCalculatorReqExp/TotalEarningsCalculatorReqExp.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5/TotalEarningsCalculatorReqExp/TotalEarningsCalculatorReqExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.2 [access_modifiers]/homework_10.2 [access_modifiers].iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.2 [access_modifiers]/homework_10.2 [access_modifiers].iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_basics.iml" filepath="$PROJECT_DIR$/java_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/src/main/nn/nn.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/src/main/nn/nn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/sopInternet/sopInternet.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/sopInternet/sopInternet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

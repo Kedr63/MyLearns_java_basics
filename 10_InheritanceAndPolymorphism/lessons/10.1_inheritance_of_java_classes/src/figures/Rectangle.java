@@ -25,7 +25,8 @@ public class Rectangle { // прямоугольник
         this.height = height;
     }
 
-    public int getSquare() {   // площадь прямоугольника
+    // площадь прямоугольника
+    public int getSquare() {
         return width * height;
     }
 }

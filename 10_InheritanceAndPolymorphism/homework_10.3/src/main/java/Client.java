@@ -1,16 +1,23 @@
 public abstract class Client {
 
-    public double getAmount() {
-        //TODO: реализуйте метод и удалите todo
-        return 0;
+    // задекларируем переменную - будет хранить значение суммы счета и защитим ее в границах класса
+    private double amount;
+
+    protected void setAmount(double amount){
+        this.amount = amount;
     }
 
-    public void put(double amountToPut) {
-        //TODO: реализуйте метод и удалите todo
+    protected double getAmount() {
+        return amount;
     }
 
-    public void take(double amountToTake) {
-        //TODO: реализуйте метод и удалите todo
-    }
+    protected abstract void put(double amountToPut);
+
+
+    protected abstract void take(double amountToTake);
+
+    // создадим абстр. метод вывода информации об условии счета и его состоянии
+    protected abstract void printInformation();
+
 
 }

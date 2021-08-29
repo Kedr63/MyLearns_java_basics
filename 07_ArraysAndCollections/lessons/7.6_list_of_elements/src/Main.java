@@ -12,7 +12,8 @@ public class Main {
 
         ArrayList<String> toDoList = new ArrayList<>();    // в <> пишется тип ~ которая будет храниться
         toDoList.add("Первое наше дело");                  // так добаляем в список
-        toDoList.add(0, "Второе наше дело");   //можно добалять по индексу, "Второе" станет первым, а "Первое" вторым
+        toDoList.add(0, "Второе наше дело");   //можно добалять по индексу, "Второе" станет первым,
+        // а "Первое" вторым
         toDoList.add("Следующее наше дело");
         for (int i = 0; i < toDoList.size(); i++) {
             System.out.println(toDoList.get(i));
