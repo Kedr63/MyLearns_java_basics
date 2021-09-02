@@ -66,7 +66,7 @@ class Test { // Для класса Работник
 
 }
 
-// Создадим класс Работник (здесь сравниваем по /id/
+// Создадим класс Работник (здесь сравниваем по /id/)
 class Employee implements Comparable<Employee> {
     int id;
     String name;
@@ -85,6 +85,7 @@ class Employee implements Comparable<Employee> {
         return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", surname='" + surname + '\'' + ", salary=" + salary + '}';
     }
 
+    // реализуем метод /compareTo/, после того как добавили implements Comparable<Employee>
     @Override
     public int compareTo(Employee anotherEmp) {
         if (this.id == anotherEmp.id) { // классический способ написания метода
@@ -125,11 +126,12 @@ class Employee1 implements Comparable<Employee1> {
         return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", surname='" + surname + '\'' + ", salary=" + salary + '}';
     }
 
+    // реализуем метод /compareTo/, после того как добавили implements Comparable<Employee>
     @Override
     public int compareTo(Employee1 anotherEmp) {
-        int res = this.name.compareTo(anotherEmp.name);
-        if (res == 0) {
-            res = this.surname.compareTo(anotherEmp.surname);
+        int res = this.name.compareTo(anotherEmp.name); // сравниваем по имени
+        if (res == 0) {                                 // если равно, то
+            res = this.surname.compareTo(anotherEmp.surname); // сравниваем по фамилии
         }
         return res;
     }

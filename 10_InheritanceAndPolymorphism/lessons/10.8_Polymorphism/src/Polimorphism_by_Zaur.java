@@ -53,7 +53,7 @@ abstract class Employee implements Help_able{
     abstract void work();
 }
 
-class Teacher extends Employee implements Help_able{
+class Teacher extends Employee {
 
     @Override
     void work() {
