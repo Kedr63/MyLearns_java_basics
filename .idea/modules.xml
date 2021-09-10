@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1/IntegerExperiments/01_sumdigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1_char/IntegerExperiments/01_sumdigits.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1_char/IntegerExperiments/01_sumdigits.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.10_Интерфейс Comparator/10.10_Интерфейс Comparator.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.10_Интерфейс Comparator/10.10_Интерфейс Comparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.11_Краткая реализация_интерфейсов/10.11_Краткая реализация_интерфейсов.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.11_Краткая реализация_интерфейсов/10.11_Краткая реализация_интерфейсов.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.12_Интерфейсы_Map_и_Set/10.12_Интерфейсы_Map_и_Set.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/lessons/10.12_Интерфейсы_Map_и_Set/10.12_Интерфейсы_Map_и_Set.iml" />
@@ -51,11 +51,12 @@
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3/TrucksContainersAndBoxes/TrucksContainersAndBoxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" filepath="$PROJECT_DIR$/07_ArraysAndCollections/homework_7.1/TwoDimensionalArray/TwoDimensionalArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.2 [access_modifiers]/homework_10.2 [access_modifiers].iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.2 [access_modifiers]/homework_10.2 [access_modifiers].iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.4/homework_10.4.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.4/homework_10.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" filepath="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.2/homework_4.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_basics.iml" filepath="$PROJECT_DIR$/java_basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/src/main/nn/nn.iml" filepath="$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.1/src/main/nn/nn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/sopInternet/sopInternet.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/sopInternet/sopInternet.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/Объекты и классы_shopInternet/Объекты и классы_shopInternet.iml" filepath="$PROJECT_DIR$/03_ObjectsAndClasses/#lessons/Объекты и классы_shopInternet/Объекты и классы_shopInternet.iml" />
     </modules>
   </component>
 </project>

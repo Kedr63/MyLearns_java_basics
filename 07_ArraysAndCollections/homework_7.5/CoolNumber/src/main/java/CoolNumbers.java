@@ -36,6 +36,7 @@ public class CoolNumbers {
         return listCoolNumbers;
     }
 
+    // метод поиска в списке перебором
     public static boolean bruteForceSearchInList(List<String> list, String number) {
         for (String s : list) {
             if (s.equals(number)) {
