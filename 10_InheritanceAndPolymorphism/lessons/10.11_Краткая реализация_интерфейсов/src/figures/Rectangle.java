@@ -3,7 +3,7 @@ package figures;
 import java.util.Date;
 
 public class Rectangle extends Figure2D { // прямоугольник
-    private double width; // поменяем с int на double, чтоб у все фигур было одинаково
+    private double width; // поменяем с int на double, чтоб у всех фигур было одинаково
     private double height;
     private Date creationTime;
 

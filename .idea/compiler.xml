@@ -19,6 +19,7 @@
         <module name="TotalEarningsCalculator" />
         <module name="TrucksContainersAndBoxes" />
         <module name="FullNameFormatter" />
+        <module name="LambdaExpressions" />
         <module name="01_sumdigits" />
         <module name="FullNameFormatterRegExp" />
         <module name="Inheritance1" />
@@ -44,6 +45,7 @@
       <module name="Inheritance3" target="11" />
       <module name="Inheritance3 (1)" target="11" />
       <module name="Inheritance3 (2)" target="11" />
+      <module name="LambdaExpressions" target="11" />
       <module name="MaskingInformation" target="11" />
       <module name="MaskingInformationReqExp" target="11" />
       <module name="PhoneBook" target="11" />
