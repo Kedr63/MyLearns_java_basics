@@ -2,6 +2,8 @@ package LambdaExpressions_от_Заур;
 
 import java.util.ArrayList;
 
+    /*  ❤️ Лямбда выражения   */
+
 public class Test1 {
 }
 

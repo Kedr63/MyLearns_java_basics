@@ -66,11 +66,11 @@ public class Employee {
   }
 
   public String toString() {
-    return name + " - " + salary + " - " +
+    return "\n" + name + " - " + salary + " - " +
         (new SimpleDateFormat("dd.MM.yyyy")).format(workStart);
   }
 
-  @Override
+ @Override
   public boolean equals(Object o) {
     if (this == o) {
       return true;

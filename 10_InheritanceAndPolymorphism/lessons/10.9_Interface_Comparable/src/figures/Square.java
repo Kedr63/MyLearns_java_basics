@@ -1,6 +1,6 @@
 package figures;
 
-public class Square extends Rectangle implements Comparable<Square> { // квадрат
+public class Square extends Rectangle implements Comparable<Square> { // 🖍 пропишем интерфейс
 
 
     public Square(double width, double height) {

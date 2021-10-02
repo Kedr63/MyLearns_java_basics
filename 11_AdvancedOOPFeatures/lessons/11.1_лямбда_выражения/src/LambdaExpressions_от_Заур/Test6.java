@@ -24,6 +24,12 @@ class Student6 {
     }
 }
 
+/*interface StudentChecks6 {
+    boolean test(Student6 s);
+}*/  // Уберем этот интерфейс, вместо него у нас будет интерфейс Preticate<T>
+// Это интерфейс находится в java.util.function | импортируем его
+
+
 class StudentInfo6 {
     void printStudent(Student6 st) {
         System.out.println("Imya studenta: " + st.name + ", pol: " + st.sex + ", " +
@@ -63,22 +69,21 @@ class StudentInfo6 {
 
         studentInfo6.testStudents(list6, (Student6 st) -> {return st.avgGrade < 9;});
         System.out.println("-----------------------------------");
+
         studentInfo6.testStudents(list6, st -> st.age > 25);  // короткий способ написания
         System.out.println("-----------------------------------");
+
         studentInfo6.testStudents(list6, st -> {return st.age < 27;}); // смешанный вариант
         System.out.println("-----------------------------------");
+
         studentInfo6.testStudents(list6, (Student6 st) -> st.sex == 'm'); // смешанный вариант
         System.out.println("-----------------------------------");
+
         studentInfo6.testStudents(list6, (Student6 st) -> {return st.avgGrade > 7.2 && st.age < 23 && st.sex =='f';});
         System.out.println("-----------------------------------");
     }
-
-
 }
 
-/*interface StudentChecks6 {
-    boolean test(Student6 s);
-}*/  // Уберем этот интерфейс, вместо него у нас будет интерфейс Preticate<T>
-// Это интерфейс находится в java.util.function | импортируем его
+
 
 

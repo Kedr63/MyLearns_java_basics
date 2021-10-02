@@ -11,7 +11,7 @@ public class Интерфейс_Comparator_Заур {
     // помогают нам узнавать какой объект больше, какой меньше, чтобы мы могли сортировать эти объекты,
     // например, в какой-то коллекции или в каком-то массиве. Сейчас разберем /Comparator/
 
-    /*  Comparator  */
+    /*  Comparator  ❤️*/
     // Мы можем создать класс /idComparator/, т.е. сравнитель по id так скажем, который имплементирует
     // /Comparator<Employee>/ - это тоже дженерикс, что он будет сравнивать? -> Он будет сравнивать наших
     // работников, поэтому -> <Employee>. Здесь нужно оверайдить один метод /compare(Employee o1, Employee o2)/.
@@ -27,6 +27,7 @@ public class Интерфейс_Comparator_Заур {
     // Теперь совместим Comparator и Comparable (см. пакет "Comparator_от_Заур_продолжение")
 }
 
+// создадим класс - Сравнитель по id работника <Employee>
 class idComparator implements Comparator<Employee> {
 
     @Override
@@ -41,6 +42,7 @@ class idComparator implements Comparator<Employee> {
     }
 }
 
+// создадим класс - Сравнитель по name работника <Employee>
 class nameComparator implements Comparator<Employee>{
 
     @Override
@@ -49,26 +51,12 @@ class nameComparator implements Comparator<Employee>{
     }
 }
 
+// создадим класс - Сравнитель по зарплате работника <Employee>
 class salaryComparator implements Comparator<Employee>{
 
     @Override
     public int compare(Employee emp1, Employee emp2) {
         return emp1.salary - emp2.salary;
-    }
-}
-
-class Test1 { // Для класса Работник (здесь сравниваем по /id/)
-    public static void main(String[] args) {
-        List<Employee> list = new ArrayList<>();
-        Employee emp1 = new Employee(100, "Zaur", "Tregulov", 12345);
-        Employee emp2 = new Employee(15, "Ivan", "Petrov", 6543);
-        Employee emp3 = new Employee(123, "Ivan", "Sidorov", 8542);
-        list.add(emp1);
-        list.add(emp2);
-        list.add(emp3);
-        System.out.println("Pered sortirovkoy \n" + list);
-        Collections.sort(list, new idComparator());
-        System.out.println("After sorting \n" + list);
     }
 }
 
@@ -88,9 +76,27 @@ class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", surname='" + surname + '\'' + ", salary=" + salary + '}';
+        return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", " +
+                "surname='" + surname + '\'' + ", salary=" + salary + '}';
     }
 }
+
+class Test1 { // Для класса Работник (здесь сравниваем по /id/)
+    public static void main(String[] args) {
+        List<Employee> list = new ArrayList<>();
+        Employee emp1 = new Employee(100, "Zaur", "Tregulov", 12345);
+        Employee emp2 = new Employee(15, "Ivan", "Petrov", 6543);
+        Employee emp3 = new Employee(123, "Ivan", "Sidorov", 8542);
+        list.add(emp1);
+        list.add(emp2);
+        list.add(emp3);
+        System.out.println("Pered sortirovkoy \n" + list);
+        Collections.sort(list, new idComparator());   // говорим -> сортируй, используя этот /Comparator/
+        System.out.println("After sorting \n" + list);
+    }
+}
+
+
 
 class Test2 {       // (сортируем по имени)
     public static void main(String[] args) {

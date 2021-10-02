@@ -1,4 +1,5 @@
 package LambdaExpressions_от_Заур_часть_2;
+
 // с импортируем нужные нам интерфейсы:
 // поставщик /Supplier/ ⬇  (он поставляет объекты когда его метод вызывается). Внутри его метод /T get()/
 // потребитель /Consumer/ ⬇ (внутри его метод /void accept(T t)/)
@@ -42,10 +43,7 @@ class Test10 {
     // а уже что будет делать этот метод - мы сейчас будем указывать когда будем вызывать этот метод
 
 
-    public static void changeCar(Car car, Consumer<Car> consumer) {
-        consumer.accept(car);
-        // это самая используемая техника применения
-    }
+
 
     public static void main(String[] args) {
         ArrayList<Car> ourCars = createThreeCars(() -> new Car("Nissan tilda", "black", 1.6));
@@ -69,7 +67,7 @@ class Test10 {
 
         // Давайте придумает задачку и совместим эти два интерфейса.
         // Допустим хочу создать метод, который будет менять мою машину - Как менять? - буду решать
-        // при вызове этого метода. Напишем этот метод ⬆ /changeCar(Car car, Consumer<Car>consumer)/
+        // при вызове этого метода. Напишем этот метод ⬇  /changeCar(Car car, Consumer<Car>consumer)/
         changeCar(ourCars.get(0), car -> {
             car.color = "red";
             car.engine = 2.4;
@@ -104,5 +102,10 @@ class Test10 {
         // Но в основном пользуются первой техникой, где метод /changeCar(Car car, Consumer<Car> consumer)/
 
         // См. далее class Test2
+    }
+
+    public static void changeCar(Car car, Consumer<Car> consumer) {
+        consumer.accept(car);
+        // это самая используемая техника применения
     }
 }

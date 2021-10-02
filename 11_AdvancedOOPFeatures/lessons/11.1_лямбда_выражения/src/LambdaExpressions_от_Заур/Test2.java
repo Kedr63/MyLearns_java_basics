@@ -31,14 +31,18 @@ class Student1 {
     }
 }
 
+interface StudentChecks {
+    boolean test(Student1 s);
+}
+
 class StudentInfo1 {
     void printStudent(Student1 st) {
         System.out.println("Imya studenta: " + st.name + ", pol: " + st.sex + ", vozrast: " + st.age + "," +
                 " kurs: " + st.course + ", srednyaa ocenka: " + st.avgGrade);
     }
 
-    void testStudents(ArrayList<Student1> aL, StudentChecks sc) { // вместо 2го параметра можем вставить объект
-        // любого класса который импл-ет интерфейс /StudentChecks/, например
+    void testStudents(ArrayList<Student1> aL, StudentChecks sc) { // вместо 2го параметра можем вставить
+        // объект любого класса который импл-ет интерфейс /StudentChecks/, например
         // объект класса /FindStudentOverGrade/
         for (Student1 s : aL) {       // проверяем каждого студента из ArrayList и проверяем:
             if (sc.test(s)) {  // если объект Типа /StudentChecks/ вызывая метод /test/,
@@ -104,9 +108,6 @@ class StudentInfo1 {
     }
 }
 
-interface StudentChecks {
-    boolean test(Student1 s);
-}
 
 class FindStudentsOverGrade implements StudentChecks {
     @Override
