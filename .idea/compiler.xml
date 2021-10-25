@@ -6,29 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Inheritance3 (1)" />
         <module name="PhoneBook" />
         <module name="Inheritance3 (2)" />
         <module name="PhoneCleaner" />
         <module name="TotalEarningsCalculatorReqExp" />
-        <module name="ReverseArray" />
         <module name="MaskingInformationReqExp" />
-        <module name="EmailList" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
-        <module name="TotalEarningsCalculator" />
         <module name="TrucksContainersAndBoxes" />
         <module name="FullNameFormatter" />
         <module name="LambdaExpressions" />
         <module name="01_sumdigits" />
+        <module name="BirthdayCalendar" />
+        <module name="GeometryCalculator" />
+        <module name="Hospital" />
+        <module name="Inheritance3 (1)" />
+        <module name="ReverseArray" />
+        <module name="EmailList" />
+        <module name="LambdaExpressions-Employee" />
+        <module name="TotalEarningsCalculator" />
         <module name="FullNameFormatterRegExp" />
         <module name="Inheritance1" />
         <module name="CoolNumber" />
         <module name="TwoDimensionalArray" />
-        <module name="BirthdayCalendar" />
-        <module name="GeometryCalculator" />
         <module name="Inheritance3" />
-        <module name="Hospital" />
         <module name="TodoList" />
       </profile>
     </annotationProcessing>
@@ -46,6 +47,7 @@
       <module name="Inheritance3 (1)" target="11" />
       <module name="Inheritance3 (2)" target="11" />
       <module name="LambdaExpressions" target="11" />
+      <module name="LambdaExpressions-Employee" target="11" />
       <module name="MaskingInformation" target="11" />
       <module name="MaskingInformationReqExp" target="11" />
       <module name="PhoneBook" target="11" />

@@ -90,8 +90,6 @@ public class Test {
         System.out.println(company2+ " доход: "+ company2.getIncome() +", "+ company2.getEmployeeList().size() + " сотрудников");
         System.out.println(company3+ " доход: "+ company3.getIncome() +", "+ company3.getEmployeeList().size() + " сотрудников");
 
-
-
     }
 }
 
