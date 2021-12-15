@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="SearchFile" fileName="logs/search.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+        </File>
+        <!-- этот ⬇ appender будет писать логи только с уровнем "warn"
+         (два пороговых фильтра оставят только уровень "warn")-->
+        <File name="InputErrorFile" fileName="logs/input_errors.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </File>
+        <File name="ExceptionsFile" fileName="logs/exceptions.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="fatal" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+        </File>
+    </appenders>
+
+    <loggers>
+        <!-- additivity="false" для того чтобы не писать в root логгер -->
+        <logger name="Main" level="info" additivity="false">
+            <appender-ref ref="SearchFile" level="info"/>
+            <appender-ref ref="InputErrorFile" />  <!-- appender с двумя пороговыми фильтрами, которые и определяют уроаень (это как 2-й вариант настройки appender)-->
+            <appender-ref ref="ExceptionsFile" level="error"/> <!-- appender c одним пороговым фильтром и заданным уровнем уже здесь (это как 1-й вариант настройки appender) -->
+        </logger>
+        <root level="debug">
+            <appender-ref ref="Console" level="debug"/>
+        </root>
+    </loggers>
+</configuration>

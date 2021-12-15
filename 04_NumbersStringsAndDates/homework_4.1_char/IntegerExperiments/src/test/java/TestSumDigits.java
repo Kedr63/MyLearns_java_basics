@@ -16,6 +16,7 @@ public class TestSumDigits {
   @DisplayName("Передано положительноe число 12345")
   void testPositiveNotZeroNumber() {
     assertEquals(15, Main.sumDigits(12345));
+
   }
 
   @Test

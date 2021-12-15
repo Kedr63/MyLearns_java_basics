@@ -30,6 +30,17 @@
         <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.1_char/IntegerExperiments/pom.xml" />
         <option value="$PROJECT_DIR$/11_AdvancedOOPFeatures/homework_11.1/pom.xml" />
         <option value="$PROJECT_DIR$/11_AdvancedOOPFeatures/homework_11.2/Employees/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/PhoneCleaner/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.1/ConsoleCustomerList/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3_Math_%/GeometryCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/MaskingInformation/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/TotalEarningsCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/#lessons/SPBMetro_для_урока_12.10/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2.1/SPBMetro/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/Эксперименты_по_настройке_log4j2/SPBMetro/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.1/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.1_1_by_stream/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.3/SPBMetro/pom.xml" />
       </list>
     </option>
   </component>
@@ -37,7 +48,7 @@
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java/_TreeSet_create_" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java/_Task__Map_create" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

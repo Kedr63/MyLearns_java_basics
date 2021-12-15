@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,6 +11,8 @@
         <module name="Inheritance3 (2)" />
         <module name="PhoneCleaner" />
         <module name="TotalEarningsCalculatorReqExp" />
+        <module name="spb-metro_forLesson_12.10" />
+        <module name="ConsoleCustomerList" />
         <module name="MaskingInformationReqExp" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
@@ -18,11 +21,14 @@
         <module name="LambdaExpressions" />
         <module name="01_sumdigits" />
         <module name="BirthdayCalendar" />
+        <module name="folder-size" />
         <module name="GeometryCalculator" />
         <module name="Hospital" />
+        <module name="spb-metro (1)" />
         <module name="Inheritance3 (1)" />
         <module name="ReverseArray" />
         <module name="EmailList" />
+        <module name="spb-metro" />
         <module name="LambdaExpressions-Employee" />
         <module name="TotalEarningsCalculator" />
         <module name="FullNameFormatterRegExp" />
@@ -30,14 +36,18 @@
         <module name="CoolNumber" />
         <module name="TwoDimensionalArray" />
         <module name="Inheritance3" />
+        <module name="folder-size (1)" />
         <module name="TodoList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
       <module name="BirthdayCalendar" target="11" />
+      <module name="ConsoleCustomerList" target="11" />
       <module name="CoolNumber" target="11" />
       <module name="EmailList" target="11" />
+      <module name="folder-size" target="11" />
+      <module name="folder-size (1)" target="11" />
       <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="GeometryCalculator" target="11" />
@@ -53,6 +63,10 @@
       <module name="PhoneBook" target="11" />
       <module name="PhoneCleaner" target="11" />
       <module name="ReverseArray" target="11" />
+      <module name="spb-metro" target="11" />
+      <module name="spb-metro (1)" target="11" />
+      <module name="spb-metro (2)" target="11" />
+      <module name="spb-metro_forLesson_12.10" target="11" />
       <module name="SplitText" target="11" />
       <module name="TodoList" target="11" />
       <module name="TotalEarningsCalculator" target="11" />

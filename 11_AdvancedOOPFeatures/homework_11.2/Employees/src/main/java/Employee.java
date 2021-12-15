@@ -1,3 +1,5 @@
+
+
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
@@ -5,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
+
 
 public class Employee {
 
@@ -65,10 +68,12 @@ public class Employee {
     this.workStart = workStart;
   }
 
+
   public String toString() {
     return name + " - " + salary + " - " +
         (new SimpleDateFormat("dd.MM.yyyy")).format(workStart);
   }
+
 
   @Override
   public boolean equals(Object o) {

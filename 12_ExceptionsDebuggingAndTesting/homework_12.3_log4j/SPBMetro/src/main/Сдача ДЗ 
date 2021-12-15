@@ -1,0 +1,169 @@
+Захар Разживин
+26 ноября 2021, 19:06
+Приветствую!
+
+Рад, что тема прояснилась :) Логи, на самом деле, штука очень сложная. Всегда появляется дилемма - а надо
+ли это логировать? А что логировать, что было легко анализирировать.. ? В общем, тут только опыт
+поможет) Нужно понаступать на грабли :)
+______________________________________________________
+Александр Шабалин
+26 ноября 2021, 09:09
+Приветствую, Захар!
+
+Спасибо за ценную информацию, сохранил как шпаргалку. Особенно понравилось про Маркеры.
+
+Исправленное задание
+
+https://gitlab.skillbox.ru/shabalin_aleksandr/java_basics/-/commit/dabcee96b660eb47d4c486cf13c3ad5b4df756d8
+______________________________________________________
+
+Захар Разживин
+24 ноября 2021, 11:18
+Добрый день!
+📍📍📍📍📍
+} catch (Exception ex){
+    loggerExceptions.info(ex);
+}
+📍📍📍📍📍
+
+Вы пишите ошибку с уровне info - это будет сбивать любого, кто будет анализировать логи :)
+
+
+
+Как должны записываться логи из задания:
+
+logs/exceptions.log - лог уровня error писать только вызовы exception - можете бросить исключение любое после
+ввода первой станции, чтобы протестировать запись в лог
+logs/input_errors.log - лог уровня warn писать только неверно введенные станции, которых нет в метро
+logs/search.log - лог уровня info - только те станции которые были введены верно
+
+Пример фильтрации для уровня INFO верно введенных станций, конфигурационный файл по умолчанию должен
+располагаться в src\main\resources\log4j2.xml
+
+📍📍📍📍📍📍📍📍📍📍📍📍📍📍
+<?xml version="1.0" encoding="UTF-8"?> <configuration status="WARN">
+
+<appenders>
+  <Console name="Console" target="SYSTEM_OUT">
+<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+  </Console>
+
+  <File name="SearchFile" fileName="logs/search.log">
+    <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    <Filters>
+      <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL" />
+    </Filters>
+  </File>
+
+ </appenders>
+
+ <loggers>
+  <root level="info">
+    <appender-ref ref="SearchFile" level="info"/>
+  </root>
+</loggers>
+
+ </configuration>
+ 📍📍📍📍📍📍📍📍📍📍📍📍
+Как это ⬆ читается:
+
+для записи лога SearchFile в файл мы фильтруем все логи уровня info и выше, уровень логирования указан в
+
+<appender-ref ref="SearchFile" level="info"/>
+при этом чтобы не записывались логи выше уровня info надо настроить фильтрацию:
+
+<Filters>
+<ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL" />
+</Filters>
+фильтр будет отбрасывать все логи уровня warn и выше. В лог будут записываться только сообщения уровня info.
+
+📌Таблица уровней логгирования (чем ниже по списку тем уровень выше):
+
+Степень важности	Описание
+ALL	Все сообщения
+TRACE	Мелкое сообщение при отладке
+DEBUG	Сообщения важные при отладке
+INFO	Просто сообщение
+WARN	Предупреждение
+ERROR	Ошибка, при которой приложении может работать
+FATAL	Фатальная ошибка, при которой завершается работа приложения
+OFF	Нет сообщения
+Править
+У этой библиотеки хорошая документация на сайте:
+
+📍https://logging.apache.org/log4j/2.x/articles.html
+
+Там есть список статей, самый понятные из которых (все на английском):
+
+📍https://examples.javacodegeeks.com/enterprise-java/log4j/log4j-2-best-practices-example/
+
+📍https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
+
+      📌 Логирование с помощью маркеров
+Альтернативный подход к решению этой задаче - использование маркеров:
+Мы можем разделить сообщения на несколько видов, и потом по этим видам сообщений определять в какой файл нам записать лог сообщение.
+
+Например, определим два вида - историю введенных станций, а также неправильный ввод:
+📍📍📍📍📍📍📍📍📍📍📍
+import org.apache.logging.log4j.Marker;
+import org.apache.logging.log4j.MarkerManager;
+
+  public class Main {
+
+     private static final Logger LOGGER = LogManager.getLogger(Main.class);
+
+     private static final Marker INPUT_HISTORY_MARKER = MarkerManager.getMarker("INPUT_HISTORY");
+     private static final Marker INVALID_STATIONS_MARKER = MarkerManager.getMarker("INVALID_STATIONS");
+     📍📍📍📍📍📍📍📍📍📍📍📍📍
+Далее в коде для мы можем использовать эти маркеры в соответствующих ситуациях, например:
+
+LOGGER.info(INPUT_HISTORY_MARKER, "Пользователь ввел станцию: {}", station);
+И в файле конфигурации мы сможем легко отсортировать эти потоки данных не думая об уровнях info,warn,error
+и не задумываясь об их иерархиях:
+📍📍📍📍📍📍📍📍
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+  <appenders>
+    <File name="SearchFile" fileName="logs/search.log">
+   <PatternLayout pattern="%msg%n"/>
+      <Filters>
+        <MarkerFilter marker="INPUT_HISTORY" />
+      </Filters>
+    </File>
+
+      ...
+    </appenders>
+
+  <loggers>
+    <root level="info">
+      <appender-ref ref="SearchFile" />
+      ...
+    </root>
+  </loggers>
+</configuration>
+</file>
+📍📍📍📍📍📍📍📍📍
+Более подробно:
+
+📍https://logging.apache.org/log4j/2.x/manual/markers.html
+
+📌В промышленных программах, обычно как имя логгера используется текущий класс:
+Для данной программы, это не принципиально, но обычно пишут так:
+
+public class Main {
+
+   private static final Logger LOGGER = LogManager.getLogger(Main.class);
+📌Для логирования исключения есть специальный перегруженный метод error(Thowable e), который покажет в логах весь стек:
+catch (Exception e) {
+  LOGGER.error(e);
+}
+📌Для логгеров есть встроенные «printf»
+LOGGER.info("User search station {} and the result is {}", line, result);
+
+--------------------=-=-=
+
+Александр Шабалин
+23 ноября 2021, 12:36
+Добрый день!
+
+https://gitlab.skillbox.ru/shabalin_aleksandr/java_basics/-/commit/68b8cf5ca354225afc0fb566d2506855eabfb804
