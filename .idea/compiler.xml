@@ -13,7 +13,9 @@
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="spb-metro_forLesson_12.10" />
         <module name="ConsoleCustomerList" />
+        <module name="folder-size_via_stream" />
         <module name="MaskingInformationReqExp" />
+        <module name="folder-copy_via_stream" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
         <module name="TrucksContainersAndBoxes" />
@@ -23,10 +25,12 @@
         <module name="BirthdayCalendar" />
         <module name="folder-size" />
         <module name="GeometryCalculator" />
+        <module name="folder-copy_via_walkFileTree" />
         <module name="Hospital" />
         <module name="spb-metro (1)" />
         <module name="Inheritance3 (1)" />
         <module name="ReverseArray" />
+        <module name="folder-copy" />
         <module name="EmailList" />
         <module name="spb-metro" />
         <module name="LambdaExpressions-Employee" />
@@ -36,7 +40,6 @@
         <module name="CoolNumber" />
         <module name="TwoDimensionalArray" />
         <module name="Inheritance3" />
-        <module name="folder-size (1)" />
         <module name="TodoList" />
       </profile>
     </annotationProcessing>
@@ -46,8 +49,11 @@
       <module name="ConsoleCustomerList" target="11" />
       <module name="CoolNumber" target="11" />
       <module name="EmailList" target="11" />
+      <module name="folder-copy" target="11" />
+      <module name="folder-copy_via_stream" target="11" />
+      <module name="folder-copy_via_walkFileTree" target="11" />
       <module name="folder-size" target="11" />
-      <module name="folder-size (1)" target="11" />
+      <module name="folder-size_via_stream" target="11" />
       <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="GeometryCalculator" target="11" />

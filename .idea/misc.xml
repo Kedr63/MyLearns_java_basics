@@ -41,6 +41,9 @@
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.1/pom.xml" />
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.1_1_by_stream/pom.xml" />
         <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.3/SPBMetro/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2_1_via_stream/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2_2_via_walkFileTree/pom.xml" />
       </list>
     </option>
   </component>

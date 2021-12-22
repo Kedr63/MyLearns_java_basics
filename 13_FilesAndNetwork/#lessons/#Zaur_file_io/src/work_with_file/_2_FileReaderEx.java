@@ -3,7 +3,7 @@ package work_with_file;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileReaderEx {
+public class _2_FileReaderEx {
     public static void main(String[] args) throws IOException {
         FileReader reader = null;
         try {
