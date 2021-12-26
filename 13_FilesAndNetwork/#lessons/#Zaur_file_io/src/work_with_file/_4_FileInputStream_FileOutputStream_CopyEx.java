@@ -1,6 +1,9 @@
 package work_with_file;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class _4_FileInputStream_FileOutputStream_CopyEx {
     // FileInputStream_FileOutputStream  ❤️
@@ -20,7 +23,7 @@ public class _4_FileInputStream_FileOutputStream_CopyEx {
         try (FileInputStream inputStream = new FileInputStream("/Users/aleksandrshabalin/Desktop/ForWorkFiles/dinozavr.JPG");
                 FileOutputStream outputStream = new FileOutputStream("dinozavr.JPG");) {
             int i;
-            while ((i = inputStream.read())!=-1){ // пока файл, который читаем не закончился,
+            while ((i = inputStream.read()) != -1) { // пока файл, который читаем не закончился,
                 outputStream.write(i);         // будем записывать с помощью outputStream-а в файл
             }
             System.out.println("Done!");  // в корне проекта появится файл /dinozavr.JPG/

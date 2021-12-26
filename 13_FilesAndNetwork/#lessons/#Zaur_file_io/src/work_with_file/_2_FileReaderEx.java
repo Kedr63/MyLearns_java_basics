@@ -5,6 +5,7 @@ import java.io.IOException;
 
 public class _2_FileReaderEx {
     public static void main(String[] args) throws IOException {
+        //  // ♦️ Введение в стримы. FileReader.
         FileReader reader = null;
         try {
             reader = new FileReader("file2.txt");
@@ -18,9 +19,11 @@ public class _2_FileReaderEx {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            reader.close();
+            reader.close();   // Этот стрим ⬆ нужно закрывать с помощью метода close, и обычно
+                            // закрывают в finally блоке. Если не закрыть, то ничего не запишется в файл
         }
-        /**  D консоль выведется содержимое файла "file2.txt" */
+
+        /**  В консоль выведется содержимое файла "file2.txt" */
     }
        /** FileReader и FileWriter используются для работы с текстовыми файлами
 
