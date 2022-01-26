@@ -44,6 +44,12 @@
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2/pom.xml" />
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2_1_via_stream/pom.xml" />
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2_2_via_walkFileTree/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_13.3/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/SplitText/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/FullNameFormatter/pom.xml" />
+        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2_&gt;tests_JUnit&lt;/SPBMetro/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_14.5_1/parse-html-json/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_14.5.1.1/pom.xml" />
       </list>
     </option>
   </component>
@@ -51,7 +57,7 @@
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java/_TreeSet_create_" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java/_Task__Map_create" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="openjdk-16" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

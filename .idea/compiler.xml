@@ -16,11 +16,12 @@
         <module name="folder-size_via_stream" />
         <module name="MaskingInformationReqExp" />
         <module name="folder-copy_via_stream" />
+        <module name="read-movements-csv" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
         <module name="TrucksContainersAndBoxes" />
-        <module name="FullNameFormatter" />
         <module name="LambdaExpressions" />
+        <module name="FullNameFormatter" />
         <module name="01_sumdigits" />
         <module name="BirthdayCalendar" />
         <module name="folder-size" />
@@ -28,6 +29,7 @@
         <module name="folder-copy_via_walkFileTree" />
         <module name="Hospital" />
         <module name="spb-metro (1)" />
+        <module name="parse-html___json" />
         <module name="Inheritance3 (1)" />
         <module name="ReverseArray" />
         <module name="folder-copy" />
@@ -58,6 +60,7 @@
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="GeometryCalculator" target="11" />
       <module name="Hospital" target="11" />
+      <module name="html-parseJSON" target="16" />
       <module name="Inheritance1" target="11" />
       <module name="Inheritance3" target="11" />
       <module name="Inheritance3 (1)" target="11" />
@@ -66,8 +69,13 @@
       <module name="LambdaExpressions-Employee" target="11" />
       <module name="MaskingInformation" target="11" />
       <module name="MaskingInformationReqExp" target="11" />
+      <module name="parse-html-json" target="16" />
+      <module name="parse-html___json" target="16" />
+      <module name="parse-html___json2" target="16" />
+      <module name="parsing-HTML-files" target="16" />
       <module name="PhoneBook" target="11" />
       <module name="PhoneCleaner" target="11" />
+      <module name="read-movements-csv" target="11" />
       <module name="ReverseArray" target="11" />
       <module name="spb-metro" target="11" />
       <module name="spb-metro (1)" target="11" />

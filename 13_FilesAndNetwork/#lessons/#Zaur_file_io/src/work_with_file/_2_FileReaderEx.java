@@ -5,7 +5,9 @@ import java.io.IOException;
 
 public class _2_FileReaderEx {
     public static void main(String[] args) throws IOException {
+
         //  // ♦️ Введение в стримы. FileReader.
+
         FileReader reader = null;
         try {
             reader = new FileReader("file2.txt");
