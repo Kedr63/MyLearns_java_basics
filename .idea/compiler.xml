@@ -24,12 +24,12 @@
         <module name="FullNameFormatter" />
         <module name="01_sumdigits" />
         <module name="BirthdayCalendar" />
+        <module name="homework_15.14_parseToJson" />
         <module name="folder-size" />
         <module name="GeometryCalculator" />
         <module name="folder-copy_via_walkFileTree" />
         <module name="Hospital" />
         <module name="spb-metro (1)" />
-        <module name="parse-html___json" />
         <module name="Inheritance3 (1)" />
         <module name="ReverseArray" />
         <module name="folder-copy" />
@@ -59,6 +59,8 @@
       <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="GeometryCalculator" target="11" />
+      <module name="homework_15.14_parseToJson" target="16" />
+      <module name="homework_15.14_parseToJson_way2" target="16" />
       <module name="Hospital" target="11" />
       <module name="html-parseJSON" target="16" />
       <module name="Inheritance1" target="11" />
@@ -72,6 +74,7 @@
       <module name="parse-html-json" target="16" />
       <module name="parse-html___json" target="16" />
       <module name="parse-html___json2" target="16" />
+      <module name="parseToJson" target="16" />
       <module name="parsing-HTML-files" target="16" />
       <module name="PhoneBook" target="11" />
       <module name="PhoneCleaner" target="11" />

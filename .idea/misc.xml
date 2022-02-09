@@ -49,8 +49,13 @@
         <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/FullNameFormatter/pom.xml" />
         <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2_&gt;tests_JUnit&lt;/SPBMetro/pom.xml" />
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_14.5_1/parse-html-json/pom.xml" />
-        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_14.5.1.1/pom.xml" />
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_15.14_parseToJson/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_15.14_parseToJson/parseToJson/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectPlainTextFileTypeManager">

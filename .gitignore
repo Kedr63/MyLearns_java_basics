@@ -157,3 +157,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,jetbrains
+/13_FilesAndNetwork/homework_15.14_parseToJson/target/
