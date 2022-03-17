@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <File name="MyFile" fileName="logs/appRoot.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+          <!--  <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/> -->
+            <!-- 📌фильтр будет отбрасывать все логи уровня warn и выше.
+            В лог будут записываться только сообщения уровня info -->
+        </File>
+        <File name="MyFile2" fileName="logs/app2.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </appenders>
+
+    <loggers>
+        <!-- если additivity="true", то будет еще записывать дополнительно и в рут файл
+        (будет дублироваться: и свой appender запишет и рут appender запишет в свой файл -->
+        <logger name= "Main" level="debug" additivity="true">
+            <appender-ref ref="MyFile2"/>
+        </logger>
+        <root level="info">
+               <appender-ref ref="MyFile" level="debug"/>
+        </root>
+    </loggers>
+</configuration>
+
+<!-- рутовский логгер в файле log4j2.log должен быть обязательно (иначе ошибка), он без имени.
+ Рутовский логгер в java классе не обязательно создавать. Если рутовский логгер создать в классе
+ java, а в log4j2.log не создать root logger, то в консоле выйдет ошибка что нужно создать рут логгер
+ и в консоле появятся вызовы рут логгера в коде начиная от error и выше (fatal)  -->
