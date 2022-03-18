@@ -6,6 +6,7 @@ import org.json.simple.parser.ParseException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,15 +27,15 @@ public class TestJson {
         root.put("root3", "ROOT3");
 
         Map<String, String> map = new LinkedHashMap<>();
-        map.put("map1", "MAP1");
-        map.put("map2", "MAP2");
+        map.put("keyMap1", "valueMap1");
+        map.put("keyMap2", "valueMap2");
 
         root.putAll(map);
 
 
         JSONArray jsonArray = new JSONArray();
-        jsonArray.add(0, "array1");
-        jsonArray.add(1, "array2");
+        jsonArray.add(0, "array1_value");
+        jsonArray.add(1, "array2_value");
 
 
         JSONObject inArray = new JSONObject();
@@ -53,16 +54,19 @@ public class TestJson {
 
         Files.write(Paths.get(PATH_FOR_DOWNLOADS + FILE_JSON), root.toJSONString().getBytes());
 
+        // Из JSON to Java
         JSONParser parser = new JSONParser();
         JSONObject jsonData = (JSONObject) parser.parse(getJsonFile());
         JSONArray result = (JSONArray) jsonData.get("массив");
-        Object w = result.get(0);
-        Object s = result.get(1);
-        Object n = result.get(2);
-        Object k = result.get(3);
-        int y = 0;
-        String result1 = (String) jsonData.get("массив");
-        System.out.println(result1);
+
+        List<String> stringList = new ArrayList<>();
+
+        String s = (String) result.get(0);
+        String s1 = (String) result.get(1);
+        stringList.add(s);
+        stringList.add(s1);
+
+        System.out.println(stringList);
 
     }
 

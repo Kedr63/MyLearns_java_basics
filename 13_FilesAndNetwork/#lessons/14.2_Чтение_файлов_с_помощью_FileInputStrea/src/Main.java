@@ -9,7 +9,7 @@ public class Main {
 
         StringBuilder builder = new StringBuilder();
         try {
-            FileInputStream is = new FileInputStream("/Users/aleksandrshabalin/Desktop/Info_for_lesson.txt");
+            FileInputStream is = new FileInputStream("/home/kedr/Рабочий стол/ForWork_JAVA/Info_for_lesson.txt");
             // есть метод /read/, он читает очередной символ в файле и возвращает код этого символа /int/
             for (;;){
                 int code = is.read();

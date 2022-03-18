@@ -8,7 +8,7 @@ public class Main {
         // BufferedReader хорош тем, что читает файл сразу построчно
         StringBuilder builder = new StringBuilder();
         try {
-            BufferedReader br = new BufferedReader(new FileReader("/Users/aleksandrshabalin/Desktop/Info_for_lesson.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("/home/kedr/Рабочий стол/ForWork_JAVA/Info_for_lesson.txt"));
             for (;;){
                 String line = br.readLine();
                 if (line == null){ // значит файл закончился

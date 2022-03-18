@@ -9,7 +9,7 @@ public class Main {
 
         StringBuilder builder = new StringBuilder();
         try {
-            List<String> lines = Files.readAllLines(Paths.get("/Users/aleksandrshabalin/Desktop/Info_for_lesson.txt"));
+            List<String> lines = Files.readAllLines(Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/Info_for_lesson.txt"));
             lines.forEach(line -> builder.append(line + "\n"));
         } catch (Exception ex) {
             ex.printStackTrace();
