@@ -11,7 +11,7 @@ public class Main {
 
      // ❤️ Парсинг HTML-файлов
 
-    /** Рассмотрим сложный вариант работы с HTML файлом.
+    /** Рассмотрим сложный вариант работы с HTML-файлом.
      Например, попробуем получить список курсов с сайта Skillbox.ru. Зайдем на сайте где все курсы ->
      Откроем "посмотреть код страницы" и скопируем код в файл, который создадим в нашем проекте и положим
      в папку /data/.
@@ -21,7 +21,7 @@ public class Main {
         // Создадим метод, который позволит в строчку прочитать этот файл
          String htmlFile = parseFile("data/code_1.html");
         Document doc = Jsoup.parse(htmlFile);  // используем библ-ку /Jsoup/
-        Elements elements = doc.select("a.card__title");
+        Elements elements = doc.select("a.card__title"); // элементы с классом "card__title" содержат имена профессий
         elements.forEach(element -> {
             System.out.println(element.text()); // распечатается список профессий
         });

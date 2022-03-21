@@ -3,7 +3,7 @@ package work_with_file;
 import java.io.*;
 
 public class _3_BufferedReader_BufferWriter_CopyEx {
-    // BufferedReader_BufferWriter ❤️
+    // BufferedReader_BufferWriter ❤🔥️
 
     /**
      * Буферизация это процесс загрузки части файла, происходящая во время потоковой передачи, например музыки

@@ -21,7 +21,7 @@ public class _6_PathAndFilesEx1 {
     public static void main(String[] args) throws IOException {
       // Примеры
         Path filePath = Paths.get("test45.txt"); // такого файла в проекте нет, но мы можем создать такой путь
-        Path directoryPath = Paths.get("/Users/aleksandrshabalin/Desktop/ForWorkFiles/L"); // такой папки тоже
+        Path directoryPath = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/L"); // такой папки тоже
         // в проекте нет, но это не мешает создавать пути
 
         System.out.println("filePath.getFileName() " + filePath.getFileName());
@@ -29,7 +29,7 @@ public class _6_PathAndFilesEx1 {
         System.out.println("------------------------------------------");
 
         System.out.println("filePath.getParent() " + filePath.getParent()); // null (потому что путь относительный)
-        System.out.println("directoryPath.getParent() " + directoryPath.getParent()); // /Users/aleksandrshabalin/Desktop/ForWorkFiles
+        System.out.println("directoryPath.getParent() " + directoryPath.getParent()); // /home/kedr/Рабочий стол/ForWork_JAVA
         System.out.println("------------------------------------------");
 
         System.out.println("filePath.getRoot() " + filePath.getRoot()); // null (потому что путь относительный)
@@ -41,14 +41,14 @@ public class _6_PathAndFilesEx1 {
         System.out.println("------------------------------------------");
 
         System.out.println("filePath.toAbsolutePath() " + filePath.toAbsolutePath());
-        // /Users/aleksandrshabalin/Skillbox/MyLearns_java_basics/test45.txt
+        // /home/kedr/My_space/Skillbox/MyLearns_java_basics/test45.txt
         System.out.println("directoryPath.toAbsolutePath() " + directoryPath.toAbsolutePath());
-        //  /Users/aleksandrshabalin/Desktop/ForWorkFiles/L
+        //  /home/kedr/Рабочий стол/ForWork_JAVA/L
         System.out.println("------------------------------------------");
 
         // Получив абс путь теперь можем получить парент путь
         System.out.println("filePath.toAbsolutePath.getParent() " + filePath.toAbsolutePath().getParent());
-        // /Users/aleksandrshabalin/Skillbox/MyLearns_java_basics
+        // /home/kedr/My_space/Skillbox/MyLearns_java_basics
         System.out.println("directoryPath.toAbsolutePath().getRoot " + directoryPath.toAbsolutePath().getRoot());
         //  /
         System.out.println("------------------------------------------");
@@ -57,16 +57,15 @@ public class _6_PathAndFilesEx1 {
 
         // 📌 resolve - объединяет два пути в один
         System.out.println("directoryPath.resolve(filePath) " + directoryPath.resolve(filePath));
-        // /Users/aleksandrshabalin/Desktop/ForWorkFiles/L/test45.txt <-> Вот был наш directoryPath ->
-        // -> /Users/aleksandrshabalin/Desktop/ForWorkFiles/L   и мы присоединили к нему (прибавили) filePath
+        // /home/kedr/My_space/Skillbox/MyLearns_java_basics/test45.txt <-> Вот был наш directoryPath ->
+        // -> /home/kedr/Рабочий стол/ForWork_JAVA/L   и мы присоединили к нему (прибавили) filePath
         // и получили такой путь /Users/aleksandrshabalin/Desktop/ForWorkFiles/L/test45.txt __  как бут-то бы файл
         // test45.txt лежит в папке "L". Естественно у нас пока ни того ни другого нет пока что, просто речь пока
         // идет о путях, а не самих каких-то файлах
         System.out.println("------------------------------------------");
 
         // 📌 relativize - возвращает относительный путь относительного другого пути
-        Path anotherPath = Paths.get("/Users/aleksandrshabalin/" +
-                "Desktop/ForWorkFiles/L/Q/J/test20.txt");
+        Path anotherPath = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/L/Q/J/test20.txt");
         // теперь нам нужно найти относительный путь относительно нашего directoryPath
         System.out.println("directoryPath.relativize(filePath) "
                 + directoryPath.relativize(anotherPath)); // Q/J/test20.txt
@@ -91,7 +90,7 @@ public class _6_PathAndFilesEx1 {
         System.out.println("------------------------------------------");
 
         // метод: ссылаются ли оба пути на один и тот же файл
-        Path filePath2 = Paths.get("/Users/aleksandrshabalin/Skillbox/MyLearns_java_basics/test45.txt");
+        Path filePath2 = Paths.get("/home/kedr/My_space/Skillbox/MyLearns_java_basics/test45.txt");
         System.out.println("Files.isSameFile(filePath, filePath2) "
                 + Files.isSameFile(filePath, filePath2));  // true
         System.out.println("------------------------------------------");

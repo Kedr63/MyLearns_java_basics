@@ -20,18 +20,18 @@ public class _5_FileEx {
 
         File file = new File("file2.txt"); // относительный путь (относительно проекта, лежит в
         // корневой папке проекта)
-        File folder = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/A");
+        File folder = new File("/home/kedr/Рабочий стол/ForWork_JAVA/A");
 
         // Если создадим файл и папку, которые не существуют (пути неверные), исключение не будет выброшено
-        File file1 = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/A/text20.txt");
-        File folder1 = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/B");
+        File file1 = new File("/home/kedr/Рабочий стол/ForWork_JAVA/A/text20.txt");
+        File folder1 = new File("/home/kedr/Рабочий стол/ForWork_JAVA/B");
 
         // создадим файл и папку, которые не существуют в компе (пути неверные), исключение не будет выброшено,
         // и с помощью методов ниже создадим файл и папку по этим путям
-        File file2 = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/A/text40.txt");
-        File folder2 = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/C");
+        File file2 = new File("/home/kedr/Рабочий стол/ForWork_JAVA/A/text40.txt");
+        File folder2 = new File("/home/kedr/Рабочий стол/ForWork_JAVA/C");
 
-        File folder3 = new File("/Users/aleksandrshabalin/Desktop/ForWorkFiles/");
+        File folder3 = new File("/home/kedr/Рабочий стол/ForWork_JAVA/");
 
 
 

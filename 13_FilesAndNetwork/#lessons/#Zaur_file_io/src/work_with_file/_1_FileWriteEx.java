@@ -29,10 +29,10 @@ public class _1_FileWriteEx {
         String rubai = "Много лет размышлял я над жизнью земной.\n" + "Непонятного нет для меня под луной.\n"
                 + "Мне известно, что мне ничего не известно, —\n" + "Вот последний секрет из постигнутых мной.\n";
 
-        // Запишем этот /рубаи/ в файл, который сначала создадим на Desktop-e /file.txt/
+        // Запишем этот /рубаи/ в файл /file.txt/, который сначала создадим на Desktop-e (в папке /ForWork_JAVA/)
         FileWriter fileWriter = null;
         try {
-            fileWriter = new FileWriter("/Users/aleksandrshabalin/Desktop/file.txt"); //абс. путь
+            fileWriter = new FileWriter("/home/kedr/Рабочий стол/ForWork_JAVA/file.txt"); //абс. путь
             for (int i = 0; i < rubai.length(); i++) {
                 fileWriter.write(rubai.charAt(i)); // посимвольно передадим в файл с помощью /fileWriter-а/
             }

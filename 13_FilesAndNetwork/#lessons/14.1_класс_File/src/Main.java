@@ -6,7 +6,7 @@ public class Main {
         // Создадим объект класса File
         // И создадим перед этим на рабочем столе файл с каким-то текстом
         // Будет записан абсолютный путь ⬇ (начинается от корня файловой системы)
-        File file = new File("/Users/aleksandrshabalin/Desktop/Info_for_lesson.txt");
+        File file = new File("/home/kedr/Рабочий стол/ForWork_JAVA/Info_for_lesson.txt");
         // здесь путь записан в стиле linux, если у вас ubuntu то тоже будет начинаться со слэша "/", в linux
         // все слэши прямые
 
@@ -31,7 +31,7 @@ public class Main {
 
         // Можем проверить, это файл или папка
         System.out.println(file.isDirectory()); // false
-        File folder = new File("/Users/aleksandrshabalin/Desktop/");
+        File folder = new File("/home/kedr/Рабочий стол/ForWork_JAVA/");
         System.out.println(folder.isDirectory());  // true
         // Можем получить список файлов в папке (возвращает массив файлов)
         File[] files = folder.listFiles();

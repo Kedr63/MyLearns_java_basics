@@ -42,11 +42,11 @@ public class _FileTree {
         // В первом примере просто выведем информацию на экран о всех файлах и директориях внутри папки и в этом
         // примере будем самостоятельно имплементировать /FileVisitor/ интерфейс, таким образом переопределим
         // все 4 метода.
-        // (работать будем с папкой - /Users/aleksandrshabalin/Desktop/ForWorkFiles/X
+        // (работать будем с папкой - /home/kedr/Рабочий стол/ForWork_JAVA/X
         // Давайте выведем информацию о всех элементах папки "Х", и папки "Х" тоже, на экран
         // Сначала создадим класс /MyFileVisitor/ ⬇
         // После этого класса /MyFileVisitor/ создадим
-        Path path = Paths.get("/Users/aleksandrshabalin/Desktop/ForWorkFiles/X");
+        Path path = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/X");
         Files.walkFileTree(path, new MyFileVisitor());
 
 

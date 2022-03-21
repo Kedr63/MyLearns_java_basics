@@ -20,7 +20,7 @@ public class _4_FileInputStream_FileOutputStream_CopyEx {
      * 📍 FileOutputStream outputStream = new FileOutputStream("test2.bin");
      */
     public static void main(String[] args) {
-        try (FileInputStream inputStream = new FileInputStream("/Users/aleksandrshabalin/Desktop/ForWorkFiles/dinozavr.JPG");
+        try (FileInputStream inputStream = new FileInputStream("/home/kedr/Рабочий стол/ForWork_JAVA/dinozavr.JPG");
                 FileOutputStream outputStream = new FileOutputStream("dinozavr.JPG");) {
             int i;
             while ((i = inputStream.read()) != -1) { // пока файл, который читаем не закончился,

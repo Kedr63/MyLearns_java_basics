@@ -18,7 +18,7 @@ public class _FileTreeDelete {
 
     public static void main(String[] args) throws IOException {
         // ⬇ папка, которую будем удалять
-        Path path = Paths.get("/Users/aleksandrshabalin/Desktop/ForWorkFiles/CopyHere");
+        Path path = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/CopyHere");
 
         Files.walkFileTree(path, new MyFileVisitor3());
 
