@@ -19,9 +19,9 @@
         <module name="read-movements-csv" />
         <module name="SplitText" />
         <module name="MaskingInformation" />
-        <module name="TrucksContainersAndBoxes" />
         <module name="LambdaExpressions" />
         <module name="FullNameFormatter" />
+        <module name="TrucksContainersAndBoxes" />
         <module name="01_sumdigits" />
         <module name="BirthdayCalendar" />
         <module name="homework_15.14_parseToJson" />
@@ -47,6 +47,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_sumdigits" target="11" />
+      <module name="_16.2_JDBCExperiments" target="17" />
       <module name="BirthdayCalendar" target="11" />
       <module name="ConsoleCustomerList" target="11" />
       <module name="CoolNumber" target="11" />

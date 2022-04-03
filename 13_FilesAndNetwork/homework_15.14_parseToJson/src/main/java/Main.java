@@ -12,7 +12,7 @@ public class Main {
     private static final String PATH_TO_RESOURCES_HTML = "src/main/resources/filesHtml/";
     private static final String FILE_JSON = "map.json";
 
-    private static final String ELEMENT_WITH_ATTR_CONTAINS_INFO_FOR_PARSE_LINES = "span[data-line]";
+    private static final String ELEMENT_WITH_ATTR_CONTAINS_INFO_FOR_PARSE_LINES = "span[data-line]"; // в скобках имя аттрибута
     private static final String ELEMENT_WITH_ATTR_CONTAINS_INFO_FOR_PARSE_STATIONS = "div[data-line]";
     private static final String ELEMENT_WITH_CLASS_FOR_GO_TO_LINKS_ON_LINES_HTML = "p.t-metrostation-list-headerlink > a";
     private static final String ELEMENT_CONTAINS_NAME_ROOT_STATION_WITH_CONNECTIONS_ON_SUB_STATIONS = "p:has(span.t-icon-metroln)";

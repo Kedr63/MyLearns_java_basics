@@ -19,7 +19,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // Создадим метод, который позволит в строчку прочитать этот файл
-         String htmlFile = parseFile("data/code_1.html");
+         String htmlFile = parseFile("13_FilesAndNetwork/#lessons/14.11_Парсинг_HTML-файлов/data/code_1.html");
         Document doc = Jsoup.parse(htmlFile);  // используем библ-ку /Jsoup/
         Elements elements = doc.select("a.card__title"); // элементы с классом "card__title" содержат имена профессий
         elements.forEach(element -> {
