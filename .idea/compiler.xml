@@ -18,11 +18,13 @@
         <module name="folder-copy_via_stream" />
         <module name="read-movements-csv" />
         <module name="SplitText" />
+        <module name="jdbc-exp_1" />
         <module name="MaskingInformation" />
         <module name="LambdaExpressions" />
         <module name="FullNameFormatter" />
         <module name="TrucksContainersAndBoxes" />
         <module name="01_sumdigits" />
+        <module name="jdbc-work_1" />
         <module name="BirthdayCalendar" />
         <module name="homework_15.14_parseToJson" />
         <module name="folder-size" />
@@ -31,6 +33,7 @@
         <module name="Hospital" />
         <module name="spb-metro (1)" />
         <module name="Inheritance3 (1)" />
+        <module name="jdbc-exp" />
         <module name="ReverseArray" />
         <module name="folder-copy" />
         <module name="EmailList" />
@@ -68,6 +71,9 @@
       <module name="Inheritance3" target="11" />
       <module name="Inheritance3 (1)" target="11" />
       <module name="Inheritance3 (2)" target="11" />
+      <module name="jdbc-exp" target="17" />
+      <module name="jdbc-exp_1" target="17" />
+      <module name="jdbc-work_1" target="17" />
       <module name="LambdaExpressions" target="11" />
       <module name="LambdaExpressions-Employee" target="11" />
       <module name="MaskingInformation" target="11" />

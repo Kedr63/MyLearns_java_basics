@@ -18,7 +18,7 @@ public class Main {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM Courses");
 
-            // Его -> /resultSet/ можно перебирать
+            // /resultSet/ можно перебирать
             while (resultSet.next()){    // если у /resultSet/ есть следующая строчка то вернет -/true/
                 String courseName = resultSet.getString("name");
                 System.out.println(courseName);
