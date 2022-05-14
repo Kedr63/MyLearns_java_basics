@@ -8,8 +8,8 @@ public class Main {
         /* skillbox - имя БД к которой подключаемся, можно не указывать, а просто потом использовать команду /use/, но
         * обычно одно приложение использует одну БД, поэтому удобней указать ее сразу здесь при подключении */
 
-        String user = "kedr63";
-        String pass = "ampilere1976";
+        String user = "root";
+        String pass = "";
 
         try {
             Connection connection = DriverManager.getConnection(url, user, pass);

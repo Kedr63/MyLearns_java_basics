@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -52,9 +53,13 @@
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_15.14_parseToJson/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/JDBCExperiments/pom.xml" />
         <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.3_Math_%/TrucksContainersAndBoxes/pom.xml" />
-        <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/__16.4_практическая работа_1/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/__16.2.2_запросы_без_Resultset/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/_16.2_JDBCExperiments/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/__16.5_Hibernate__connectionAndSetting/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework_16_4__jdbc_mysql_connection/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework_16.4/jdbc_mysql_connection/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/jdbc_mysql_connection/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework_16.4/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

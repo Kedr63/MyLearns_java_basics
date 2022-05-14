@@ -11,8 +11,8 @@ public class Main {
         * возвращает boolean     */
 
         String url = "jdbc:mysql://localhost:3306/skillbox";
-        String user = "kedr63";
-        String pass = "ampilere1976";
+        String user = "root";
+        String pass = "";
 
         try {
             Connection connection = DriverManager.getConnection(url, user, pass);

@@ -14,6 +14,7 @@
         <module name="spb-metro_forLesson_12.10" />
         <module name="ConsoleCustomerList" />
         <module name="folder-size_via_stream" />
+        <module name="jdbc_mysql_connection" />
         <module name="MaskingInformationReqExp" />
         <module name="folder-copy_via_stream" />
         <module name="read-movements-csv" />
@@ -24,7 +25,6 @@
         <module name="FullNameFormatter" />
         <module name="TrucksContainersAndBoxes" />
         <module name="01_sumdigits" />
-        <module name="jdbc-work_1" />
         <module name="BirthdayCalendar" />
         <module name="homework_15.14_parseToJson" />
         <module name="folder-size" />
@@ -36,6 +36,7 @@
         <module name="jdbc-exp" />
         <module name="ReverseArray" />
         <module name="folder-copy" />
+        <module name="__16.5_Hibernate__connectionAndSetting" />
         <module name="EmailList" />
         <module name="spb-metro" />
         <module name="LambdaExpressions-Employee" />
@@ -49,54 +50,21 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="01_sumdigits" target="11" />
       <module name="_16.2_JDBCExperiments" target="17" />
-      <module name="BirthdayCalendar" target="11" />
       <module name="ConsoleCustomerList" target="11" />
-      <module name="CoolNumber" target="11" />
-      <module name="EmailList" target="11" />
-      <module name="folder-copy" target="11" />
-      <module name="folder-copy_via_stream" target="11" />
-      <module name="folder-copy_via_walkFileTree" target="11" />
-      <module name="folder-size" target="11" />
-      <module name="folder-size_via_stream" target="11" />
-      <module name="FullNameFormatter" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
-      <module name="GeometryCalculator" target="11" />
-      <module name="homework_15.14_parseToJson" target="16" />
       <module name="homework_15.14_parseToJson_way2" target="16" />
-      <module name="Hospital" target="11" />
+      <module name="homework_16_4__jdbc_mysql_connection" target="17" />
       <module name="html-parseJSON" target="16" />
-      <module name="Inheritance1" target="11" />
-      <module name="Inheritance3" target="11" />
-      <module name="Inheritance3 (1)" target="11" />
-      <module name="Inheritance3 (2)" target="11" />
-      <module name="jdbc-exp" target="17" />
-      <module name="jdbc-exp_1" target="17" />
       <module name="jdbc-work_1" target="17" />
-      <module name="LambdaExpressions" target="11" />
-      <module name="LambdaExpressions-Employee" target="11" />
-      <module name="MaskingInformation" target="11" />
       <module name="MaskingInformationReqExp" target="11" />
       <module name="parse-html-json" target="16" />
       <module name="parse-html___json" target="16" />
       <module name="parse-html___json2" target="16" />
       <module name="parseToJson" target="16" />
       <module name="parsing-HTML-files" target="16" />
-      <module name="PhoneBook" target="11" />
-      <module name="PhoneCleaner" target="11" />
-      <module name="read-movements-csv" target="11" />
-      <module name="ReverseArray" target="11" />
-      <module name="spb-metro" target="11" />
-      <module name="spb-metro (1)" target="11" />
       <module name="spb-metro (2)" target="11" />
-      <module name="spb-metro_forLesson_12.10" target="11" />
-      <module name="SplitText" target="11" />
-      <module name="TodoList" target="11" />
-      <module name="TotalEarningsCalculator" target="11" />
       <module name="TotalEarningsCalculatorReqExp" target="11" />
-      <module name="TrucksContainersAndBoxes" target="11" />
-      <module name="TwoDimensionalArray" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
