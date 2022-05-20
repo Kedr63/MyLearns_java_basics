@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 public class Course {
     @Id  // id обязательно должен иметь такую аннотацию
     @GeneratedValue(strategy = GenerationType.IDENTITY) // пишет такую аннотацию,т.к. id с auto_increment
-
     private int id;
 
     private String name;
@@ -28,6 +27,8 @@ public class Course {
 
     @Column(name = "price_per_hour")
     private float pricePerHour;
+
+    // И создадим геттеры и сеттеры
 
     public int getId() {
         return id;

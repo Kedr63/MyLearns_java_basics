@@ -12,8 +12,8 @@
         <module name="PhoneCleaner" />
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="spb-metro_forLesson_12.10" />
-        <module name="ConsoleCustomerList" />
         <module name="folder-size_via_stream" />
+        <module name="ConsoleCustomerList" />
         <module name="jdbc_mysql_connection" />
         <module name="MaskingInformationReqExp" />
         <module name="folder-copy_via_stream" />
@@ -32,11 +32,16 @@
         <module name="folder-copy_via_walkFileTree" />
         <module name="Hospital" />
         <module name="spb-metro (1)" />
+        <module name="hibernate_1" />
         <module name="Inheritance3 (1)" />
         <module name="jdbc-exp" />
         <module name="ReverseArray" />
         <module name="folder-copy" />
+        <module name="ManyToOne_OneToMany" />
+        <module name="hibernate_edit_dates_BD" />
+        <module name="manyToMany" />
         <module name="__16.5_Hibernate__connectionAndSetting" />
+        <module name="ManyToMany" />
         <module name="EmailList" />
         <module name="spb-metro" />
         <module name="LambdaExpressions-Employee" />
@@ -51,12 +56,17 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_16.2_JDBCExperiments" target="17" />
-      <module name="ConsoleCustomerList" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
+      <module name="hibernate" target="17" />
+      <module name="hibernate_edited_dates_BD" target="17" />
+      <module name="hibernate_edited_dates_datebase" target="17" />
       <module name="homework_15.14_parseToJson_way2" target="16" />
+      <module name="homework_16.6" target="17" />
       <module name="homework_16_4__jdbc_mysql_connection" target="17" />
       <module name="html-parseJSON" target="16" />
       <module name="jdbc-work_1" target="17" />
+      <module name="manyToMany" target="17" />
+      <module name="ManyToMany" target="17" />
       <module name="MaskingInformationReqExp" target="11" />
       <module name="parse-html-json" target="16" />
       <module name="parse-html___json" target="16" />

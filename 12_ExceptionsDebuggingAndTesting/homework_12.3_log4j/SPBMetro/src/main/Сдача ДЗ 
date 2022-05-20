@@ -108,9 +108,9 @@ OFF	Нет сообщения
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
 
-  public class Main {
+  public class __MainInsertUpdate {
 
-     private static final Logger LOGGER = LogManager.getLogger(Main.class);
+     private static final Logger LOGGER = LogManager.getLogger(__MainInsertUpdate.class);
 
      private static final Marker INPUT_HISTORY_MARKER = MarkerManager.getMarker("INPUT_HISTORY");
      private static final Marker INVALID_STATIONS_MARKER = MarkerManager.getMarker("INVALID_STATIONS");
@@ -150,9 +150,9 @@ LOGGER.info(INPUT_HISTORY_MARKER, "Пользователь ввел станц�
 📌В промышленных программах, обычно как имя логгера используется текущий класс:
 Для данной программы, это не принципиально, но обычно пишут так:
 
-public class Main {
+public class __MainInsertUpdate {
 
-   private static final Logger LOGGER = LogManager.getLogger(Main.class);
+   private static final Logger LOGGER = LogManager.getLogger(__MainInsertUpdate.class);
 📌Для логирования исключения есть специальный перегруженный метод error(Thowable e), который покажет в логах весь стек:
 catch (Exception e) {
   LOGGER.error(e);

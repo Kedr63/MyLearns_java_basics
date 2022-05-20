@@ -29,7 +29,7 @@
 
     <loggers>
         <!-- additivity="false" для того чтобы не писать в root логгер -->
-        <logger name="Main" level="info" additivity="false">
+        <logger name="__MainInsertUpdate" level="info" additivity="false">
             <appender-ref ref="SearchFile" level="info"/>
             <appender-ref ref="InputErrorFile" />  <!-- appender с двумя пороговыми фильтрами, которые и определяют уроаень (это как 2-й вариант настройки appender)-->
             <appender-ref ref="ExceptionsFile" level="error"/> <!-- appender c одним пороговым фильтром и заданным уровнем уже здесь (это как 1-й вариант настройки appender) -->
