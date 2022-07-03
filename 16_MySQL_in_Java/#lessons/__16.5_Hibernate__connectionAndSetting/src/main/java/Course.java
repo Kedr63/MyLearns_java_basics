@@ -1,7 +1,7 @@
 import jakarta.persistence.*;
 
-@Entity // подключаем пакет
-@Table(name = "Courses")
+@Entity // сущность
+@Table(name = "Courses") // этот класс свяжется с таблицей (Courses)
 public class Course {
     @Id  // id обязательно должен иметь такую аннотацию
     @GeneratedValue(strategy = GenerationType.IDENTITY) // пишет такую аннотацию,т.к. id с auto_increment

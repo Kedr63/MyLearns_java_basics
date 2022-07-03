@@ -15,7 +15,7 @@
     <loggers>
         <!-- если additivity="true", то будет еще записывать дополнительно и в рут файл
         (будет дублироваться: и свой appender запишет и рут appender запишет в свой файл -->
-        <logger name= "Main" level="debug" additivity="true">
+        <logger name= "__MainInsertUpdate" level="debug" additivity="true">
             <appender-ref ref="MyFile2"/>
         </logger>
         <root level="info">

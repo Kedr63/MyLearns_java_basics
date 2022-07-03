@@ -1,9 +1,12 @@
-import javax.persistence.*;
+
+import jakarta.persistence.*;
+
 import java.util.Date;
 
 @Entity
 @Table(name = "Students")
 public class Student {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

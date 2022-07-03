@@ -32,7 +32,9 @@
         <module name="folder-copy_via_walkFileTree" />
         <module name="Hospital" />
         <module name="spb-metro (1)" />
+        <module name="hibernate_2" />
         <module name="hibernate_1" />
+        <module name="hibernate__2" />
         <module name="Inheritance3 (1)" />
         <module name="jdbc-exp" />
         <module name="ReverseArray" />
@@ -41,7 +43,6 @@
         <module name="hibernate_edit_dates_BD" />
         <module name="manyToMany" />
         <module name="__16.5_Hibernate__connectionAndSetting" />
-        <module name="ManyToMany" />
         <module name="EmailList" />
         <module name="spb-metro" />
         <module name="LambdaExpressions-Employee" />
@@ -65,7 +66,6 @@
       <module name="homework_16_4__jdbc_mysql_connection" target="17" />
       <module name="html-parseJSON" target="16" />
       <module name="jdbc-work_1" target="17" />
-      <module name="manyToMany" target="17" />
       <module name="ManyToMany" target="17" />
       <module name="MaskingInformationReqExp" target="11" />
       <module name="parse-html-json" target="16" />

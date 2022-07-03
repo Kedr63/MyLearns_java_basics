@@ -72,6 +72,10 @@
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/__16.8_Связи ManyToOne и OneToMany/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons/__16.7_Hibernate_изменение_данных_в_базе/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#les/manyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_1/16.9_Связь_ManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/hibernate_2/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework_16.10/pom.xml" />
+        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework__16.10/hibernate__2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

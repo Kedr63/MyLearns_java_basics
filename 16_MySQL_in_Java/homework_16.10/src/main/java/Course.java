@@ -1,12 +1,15 @@
+import jakarta.persistence.*;
 
-import javax.persistence.*;
 import java.util.List;
+
 
 @Entity
 @Table(name = "Courses")
 public class Course {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // пишет такую аннотацию,т.к. id с auto_increment
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // пишет такую аннотацию,т.к. id с auto_increment
     private int id;
 
     private String name;
@@ -32,8 +35,8 @@ public class Course {
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "Subscriptions",  // пропишем какую таблицу будем исп-ть для связки этих двух сущностей (курсов и студентов)
-    joinColumns = {@JoinColumn(name = "course_id")}, // перечислим поля из Subscriptions, которые соединяем
-    inverseJoinColumns = {@JoinColumn(name = "student_id")})
+            joinColumns = {@JoinColumn(name = "course_id")}, // перечислим поля из Subscriptions, которые соединяем
+            inverseJoinColumns = {@JoinColumn(name = "student_id")})
     private List<Student> students; // создали коллекцию студентов и зададим ей связь ManyToMany
 
 

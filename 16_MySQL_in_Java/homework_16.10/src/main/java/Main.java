@@ -34,6 +34,21 @@ public class Main {
             System.out.println(student.getName());
         }
 
+        System.out.println("get subscr");
+        Subscription subscription = session.get(Subscription.class, 1);
+        System.out.println(subscription.getStudentId() + " " + subscription.getCourseId() + " " + subscription.getSubscriptionDate());
+
+        //  Student student = session.get(Student.class, 50);
+
+        Teacher teacher = session.get(Teacher.class, 10);
+        List<Course> courseList = teacher.getCourses();
+        System.out.println(teacher.getName() + " " + teacher.getId());
+        for (Course course1 : courseList) {
+            System.out.println(course1.getName());
+        }
+
+        Course course2 = session.get(Course.class, 5);
+        System.out.println(course2.getDescription());
 
         transaction.commit();
         sessionFactory.close();
