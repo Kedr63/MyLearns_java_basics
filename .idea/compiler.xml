@@ -7,60 +7,77 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lazy_load" />
+        <module name="TotalEarningsCalculatorReqExp" />
+        <module name="query_builder" />
+        <module name="spb-metro_forLesson_12.10" />
+        <module name="folder-copy_via_stream" />
+        <module name="read-movements-csv" />
+        <module name="MaskingInformation" />
+        <module name="LambdaExpressions" />
+        <module name="01_sumdigits" />
+        <module name="homework_15.14_parseToJson" />
+        <module name="GeometryCalculator" />
+        <module name="Hospital" />
+        <module name="spb-metro (1)" />
+        <module name="hibernate__3" />
+        <module name="Inheritance3 (1)" />
+        <module name="jdbc-exp" />
+        <module name="folder-size (2)" />
+        <module name="folder-copy (3)" />
+        <module name="folder-copy" />
+        <module name="ManyToOne_OneToMany" />
+        <module name="__16.5_Hibernate__connectionAndSetting" />
+        <module name="spb-metro" />
+        <module name="FullNameFormatterRegExp" />
+        <module name="Inheritance1" />
+        <module name="TwoDimensionalArray" />
+        <module name="Inheritance3" />
+        <module name="spb-metro (2)" />
+        <module name="folder-size (1)" />
+        <module name="where_and_orderBy" />
+        <module name="TodoList" />
         <module name="PhoneBook" />
         <module name="Inheritance3 (2)" />
         <module name="PhoneCleaner" />
-        <module name="TotalEarningsCalculatorReqExp" />
-        <module name="spb-metro_forLesson_12.10" />
+        <module name="folder-copy (2)" />
+        <module name="spb-metro (3)" />
         <module name="folder-size_via_stream" />
         <module name="ConsoleCustomerList" />
         <module name="jdbc_mysql_connection" />
         <module name="MaskingInformationReqExp" />
-        <module name="folder-copy_via_stream" />
-        <module name="read-movements-csv" />
         <module name="SplitText" />
         <module name="jdbc-exp_1" />
-        <module name="MaskingInformation" />
-        <module name="LambdaExpressions" />
+        <module name="hibernate" />
         <module name="FullNameFormatter" />
         <module name="TrucksContainersAndBoxes" />
-        <module name="01_sumdigits" />
         <module name="BirthdayCalendar" />
-        <module name="homework_15.14_parseToJson" />
         <module name="folder-size" />
-        <module name="GeometryCalculator" />
         <module name="folder-copy_via_walkFileTree" />
-        <module name="Hospital" />
-        <module name="spb-metro (1)" />
         <module name="hibernate_2" />
         <module name="hibernate_1" />
-        <module name="hibernate__2" />
-        <module name="Inheritance3 (1)" />
-        <module name="jdbc-exp" />
+        <module name="hibernate_CKey" />
+        <module name="HQL" />
+        <module name="folder-copy (1)" />
         <module name="ReverseArray" />
-        <module name="folder-copy" />
-        <module name="ManyToOne_OneToMany" />
+        <module name="hibernate_create_table" />
         <module name="hibernate_edit_dates_BD" />
         <module name="manyToMany" />
-        <module name="__16.5_Hibernate__connectionAndSetting" />
         <module name="EmailList" />
-        <module name="spb-metro" />
+        <module name="Inheritance3 (3)" />
         <module name="LambdaExpressions-Employee" />
         <module name="TotalEarningsCalculator" />
-        <module name="FullNameFormatterRegExp" />
-        <module name="Inheritance1" />
         <module name="CoolNumber" />
-        <module name="TwoDimensionalArray" />
-        <module name="Inheritance3" />
-        <module name="TodoList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_16.2_JDBCExperiments" target="17" />
       <module name="FullNameFormatterRegExp" target="11" />
-      <module name="hibernate" target="17" />
+      <module name="hibernate__3" target="17" />
+      <module name="hibernate_composit_key" target="17" />
       <module name="hibernate_edited_dates_BD" target="17" />
       <module name="hibernate_edited_dates_datebase" target="17" />
+      <module name="hibernate_query_builder" target="17" />
       <module name="homework_15.14_parseToJson_way2" target="16" />
       <module name="homework_16.6" target="17" />
       <module name="homework_16_4__jdbc_mysql_connection" target="17" />
@@ -73,7 +90,6 @@
       <module name="parse-html___json2" target="16" />
       <module name="parseToJson" target="16" />
       <module name="parsing-HTML-files" target="16" />
-      <module name="spb-metro (2)" target="11" />
       <module name="TotalEarningsCalculatorReqExp" target="11" />
     </bytecodeTargetLevel>
   </component>

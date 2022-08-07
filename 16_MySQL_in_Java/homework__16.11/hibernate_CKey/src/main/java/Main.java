@@ -1,3 +1,6 @@
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -50,19 +53,19 @@ public class Main {
 //        session.persist(subscription1);
 
 
-        // очистим таблицу PurchaseList чтоб далее заполнить ее актуальными данными
-        String sq21 = "DELETE FROM " + PurchaseList.class.getSimpleName();
-        session.createQuery(sq21).executeUpdate();
+        // 📍 очистим таблицу PurchaseList чтоб далее заполнить ее актуальными данными
+        String sql1 = "DELETE FROM " + PurchaseList.class.getSimpleName();
+        session.createQuery(sql1).executeUpdate();
 
 
-        // заполним таблицу PurchaseList с помощью таблиц Subscriptions и Students
+        // 📍 заполним таблицу PurchaseList с помощью таблиц Subscriptions и Students
         String sql = "From " + Student.class.getSimpleName();
         List<Student> studentList = session.createQuery(sql, Student.class).list();
 
 
         for (Student st : studentList) {
             String nameStudent = st.getName();
-            List<Subscription> subscriptions = student.getSubscriptions();
+            List<Subscription> subscriptions = st.getSubscriptions();
 
             for (Subscription subscription : subscriptions) {
                 String nameCourse = subscription.getCourse().getName();
@@ -75,6 +78,8 @@ public class Main {
 
         transaction.commit();
         sessionFactory.close();
+
+        System.out.println("Ready");
     }
 }
 

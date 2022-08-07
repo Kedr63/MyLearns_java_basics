@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/target/classes" />
+    <output-test url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/target/test-classes" />
+    <content url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder">
+      <sourceFolder url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/16_MySQL_in_Java/#lessons_1/16.11_hibernate_query_builder/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.hibernate.orm:hibernate-core:6.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:3.0.0" level="project" />
+  </component>
+</module>
