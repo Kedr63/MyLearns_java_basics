@@ -29,9 +29,11 @@
         <module name="ManyToOne_OneToMany" />
         <module name="__16.5_Hibernate__connectionAndSetting" />
         <module name="spb-metro" />
+        <module name="Transactions" />
         <module name="FullNameFormatterRegExp" />
         <module name="Inheritance1" />
         <module name="TwoDimensionalArray" />
+        <module name="_17.3_interface_Runnable" />
         <module name="Inheritance3" />
         <module name="spb-metro (2)" />
         <module name="folder-size (1)" />
@@ -53,12 +55,14 @@
         <module name="TrucksContainersAndBoxes" />
         <module name="BirthdayCalendar" />
         <module name="folder-size" />
+        <module name="ImageResizer" />
         <module name="folder-copy_via_walkFileTree" />
         <module name="hibernate_2" />
         <module name="hibernate_1" />
         <module name="hibernate_CKey" />
         <module name="HQL" />
         <module name="folder-copy (1)" />
+        <module name="_17.2_Class_Thread" />
         <module name="ReverseArray" />
         <module name="hibernate_create_table" />
         <module name="hibernate_edit_dates_BD" />
@@ -67,7 +71,10 @@
         <module name="Inheritance3 (3)" />
         <module name="LambdaExpressions-Employee" />
         <module name="TotalEarningsCalculator" />
+        <module name="Deadlock" />
+        <module name="homework_ImageResizer" />
         <module name="CoolNumber" />
+        <module name="_17.12_Mutual blocking -- Deadlock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -91,7 +91,7 @@ public class Interface_ot_Zayr {
 
         @Override
         public void tushitPojar(String s) {
-            System.out.println("Driver tushit Pojar c pomowyu: " + s);
+            System.out.println("Uchitel tushit Pojar c pomowyu: " + s);
         }
     }
 

@@ -83,6 +83,13 @@
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_4_Where и OrderBy/where_and_orderBy/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_5_HQL/HQL/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework__16.15/hibernate_create_table/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.2_Class_Thread/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.3_interface_Runnable/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/homework_ImageResizer/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/ImageResizer/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/Deadlock/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/Transactions/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -95,7 +102,7 @@
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java/_TreeSet_create_" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java/_Task__Map_create" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
