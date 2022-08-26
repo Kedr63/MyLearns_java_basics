@@ -7,8 +7,8 @@ public class Bank {
     private Map<String, Account> accounts;
     private final Random random = new Random();
 
-    public Bank(){
-        accounts.
+    public Bank() {
+
     }
 
     public synchronized boolean isFraud(String fromAccountNum, String toAccountNum, long amount)
