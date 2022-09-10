@@ -2,7 +2,8 @@ public class Consumer implements Runnable {
 
   private Parking parking;
 
-  public Consumer(Parking parking) {
+  public Consumer(Parking parking)
+  {
     this.parking = parking;
   }
 

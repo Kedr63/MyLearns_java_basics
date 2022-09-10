@@ -18,8 +18,8 @@
         <module name="01_sumdigits" />
         <module name="homework_15.14_parseToJson" />
         <module name="GeometryCalculator" />
-        <module name="Hospital" />
         <module name="spb-metro (1)" />
+        <module name="Hospital" />
         <module name="hibernate__3" />
         <module name="Inheritance3 (1)" />
         <module name="jdbc-exp" />
@@ -63,6 +63,7 @@
         <module name="HQL" />
         <module name="folder-copy (1)" />
         <module name="_17.2_Class_Thread" />
+        <module name="spb-metro (4)" />
         <module name="ReverseArray" />
         <module name="hibernate_create_table" />
         <module name="hibernate_edit_dates_BD" />
@@ -88,6 +89,7 @@
       <module name="homework_15.14_parseToJson_way2" target="16" />
       <module name="homework_16.6" target="17" />
       <module name="homework_16_4__jdbc_mysql_connection" target="17" />
+      <module name="hospital" target="17" />
       <module name="html-parseJSON" target="16" />
       <module name="jdbc-work_1" target="17" />
       <module name="ManyToMany" target="17" />

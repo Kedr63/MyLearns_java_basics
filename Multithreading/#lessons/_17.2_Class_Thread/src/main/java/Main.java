@@ -1,4 +1,4 @@
-package src.main.java;
+
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -48,7 +48,7 @@ private static int newWidth = 300;
     System.out.println("Duration: " + (System.currentTimeMillis() - star));*/
 
     // 📍 Теперь разделим на два потока
-    // Чтоб создать поток нужно создать какой-нтбудь класс, например ImageResizer и отнаследовать его
+    // Чтоб создать поток нужно создать какой-нибудь класс, например ImageResizer и отнаследовать его
     // от класса Tread и переопределить в нем единственный метод run() и написать в нем то что должно выполняться
     // в отдельном потоке, в этом классе также добавим конструктор
     File srcDir = new File(srcFolder);
@@ -61,12 +61,15 @@ private static int newWidth = 300;
 
     File[] files1 = new File[middle];
     System.arraycopy(files, 0, files1, 0, files1.length);
+
     // И создадим 1 поток
     ImageResizer imageResizer1 = new ImageResizer(files1, newWidth, dstFolder, star);
     imageResizer1.start();
 
+
     File[] files2 = new File[files.length - middle];
     System.arraycopy(files, middle, files2, 0, files2.length);
+
     // И создадим 2 поток
     ImageResizer imageResizer2 = new ImageResizer(files2, newWidth, dstFolder, star);
     imageResizer2.start();

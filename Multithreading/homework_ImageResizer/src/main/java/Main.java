@@ -15,9 +15,9 @@ public class Main {
 
     File srcDir = new File(srcFolder);
 
-    int coresCountProcessor = Runtime.getRuntime().availableProcessors();
+    int coresCountProcessor = Runtime.getRuntime().availableProcessors(); // определим сколько ядер у процессора
 
-    long star = System.currentTimeMillis();
+    long start = System.currentTimeMillis();
 
     File[] scrArrayFiles = srcDir.listFiles();
 
@@ -36,7 +36,7 @@ public class Main {
             lengthOfArrayForThread = 1;
           }
           File[] files1 = createFilesArray(scrArrayFiles, lengthOfArrayForThread, indexStartArray);
-          ImageResizer imageResizer = new ImageResizer(files1, newWidth, dstFolder, star);
+          ImageResizer imageResizer = new ImageResizer(files1, newWidth, dstFolder, start);
           new Thread(imageResizer).start();
           indexStartArray = indexStartArray + lengthOfArrayForThread;
         }

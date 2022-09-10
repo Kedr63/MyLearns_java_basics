@@ -26,7 +26,7 @@ class HospitalTest {
         long amountCorrectTemperatures = IntStream.range(0, testHospitalData.length)
                 .mapToDouble(i -> testHospitalData[i])
                 .filter(t -> t >= 32)
-                .filter(t -> t <= 40)
+                .filter(t -> t <= 42)
                 .count();
 
         assertEquals(100L, amountCorrectTemperatures,

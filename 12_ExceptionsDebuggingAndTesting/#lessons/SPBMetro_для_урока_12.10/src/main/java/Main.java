@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Main {
     private static Logger logger;  // создали Logger (❗️выбрать пакет: org.apache.logging.log4j❗️)
 
-    private static final String DATA_FILE = "src/main/resources/map.json";
+    private static final String DATA_FILE = "12_ExceptionsDebuggingAndTesting/#lessons/SPBMetro_для_урока_12.10/src/main/resources/map.json";
     private static Scanner scanner;
 
     private static StationIndex stationIndex;

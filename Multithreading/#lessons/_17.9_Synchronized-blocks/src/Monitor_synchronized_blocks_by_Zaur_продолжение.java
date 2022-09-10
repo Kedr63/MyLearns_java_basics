@@ -78,7 +78,7 @@ class R1 implements Runnable {
 
 class Ex1 {
 
-  static final Car car = new Car();
+  static final Car car = new Car();  // создали car для синхрон-ции всех методов (для примера, но лучше создавать Object)
 
   void mobileCall() {
     // System.out.println(this);

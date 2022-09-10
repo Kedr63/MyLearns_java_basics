@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static final String DATA_FILE = "src/main/resources/map.json";
+    private static final String DATA_FILE = "12_ExceptionsDebuggingAndTesting/Эксперименты_по_настройке_log4j2/SPBMetro/src/main/resources/map.json";
     private static Scanner scanner;
     private static Logger logger;
     private static Logger logger2;
@@ -34,12 +34,12 @@ public class Main {
         logger.error("это error root");
         logger.fatal("это fatal root");
 
-        logger2.trace("это trace - logger2");
+      /*  logger2.trace("это trace - logger2");
         logger2.debug("это debug -logger2");
         logger2.info("это info -logger2");
         logger2.warn("это warn -logger2");
         logger2.error("это error -logger2");
-        logger2.fatal("это fatal -logger2");
+        logger2.fatal("это fatal -logger2");*/
 
 
 
