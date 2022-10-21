@@ -30,6 +30,7 @@ class Thread10 extends Thread {
     System.out.println("Thread10: Попытка захватить монитор объекта lock1");
     synchronized (DeadLockEx.lock1) {    // если мы внутри synchronized-блока то мы смогли захватить монитор
       System.out.println("Thread10: Монитор объекта lock1 захвачен");
+
       // Дальше хотим провести синхронизацию исп-я монитор объекта lock2
       System.out.println("Thread10: Попытка захватить монитор объекта lock2");
       synchronized (DeadLockEx.lock2) {

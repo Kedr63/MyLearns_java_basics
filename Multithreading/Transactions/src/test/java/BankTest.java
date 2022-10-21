@@ -1,17 +1,23 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.util.Map.Entry;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+
+import java.util.Map.Entry;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BankTest {
 
   Bank bank = new Bank();
 
+  //protected static Logger logger;
+
   @Before
-  @DisplayName("Проверка методов без многопоточности")
   public void setUp() throws Exception {
+    MyLogger.logger = LogManager.getLogger();
+
     Account account1 = new Account("1", 100_000);
     Account account2 = new Account("2", 200_000);
     Account account3 = new Account("3", 300_000);
@@ -93,5 +99,4 @@ public class BankTest {
 
     assertEquals(200_000, amountFrom); // баланс счета №2 должен остаться прежним
   }
-
 }

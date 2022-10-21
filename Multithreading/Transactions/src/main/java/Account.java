@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-public class Account {
+public class Account implements Comparable<Account>{
 
   private long money;
   private String accNumber;
@@ -14,7 +14,7 @@ public class Account {
     this.money = money;
   }
 
-  public long getMoney() {
+  public long getMoney()  {
     return money;
   }
 
@@ -30,14 +30,8 @@ public class Account {
     this.accNumber = accNumber;
   }
 
-  protected static Set<Account> generateAccountsSet(int countClients) {
-    Set<Account> accountSet = new HashSet<>();
-    Random random = new Random();
-    for (int i = 0; i < countClients; i++) {
-      String accNum = String.valueOf(i);
-      int accMoney = random.nextInt(11) * 10_000;
-      accountSet.add(new Account(accNum, accMoney));
-    }
-    return accountSet;
+  @Override
+  public int compareTo(Account o) {
+    return this.getAccNumber().compareTo(o.getAccNumber());
   }
 }
