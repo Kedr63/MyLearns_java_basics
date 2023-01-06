@@ -27,7 +27,6 @@ public class Main {
         TransactionsRun transactionsRun2 = new TransactionsRun(bank, AMOUNT_TRANSACTIONS_FOR_ONE_THREAD);
         TransactionsRun transactionsRun3 = new TransactionsRun(bank, AMOUNT_TRANSACTIONS_FOR_ONE_THREAD);
         TransactionsRun transactionsRun4 = new TransactionsRun(bank, AMOUNT_TRANSACTIONS_FOR_ONE_THREAD);
-        TransactionsRun transactionsRun5 = new TransactionsRun(bank, AMOUNT_TRANSACTIONS_FOR_ONE_THREAD);
 
         long amountBeforeTransactions = bank.getSumAllAccounts();
         System.out.println("Сумма всех счетов: " + amountBeforeTransactions + "\n");

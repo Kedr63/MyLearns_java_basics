@@ -52,6 +52,7 @@ public class Main {
   // 1000000
   // 1000000
 
+/** Первая запись без synchronized */
   /*private static void someHeavyMethods() { // будет заполнять ArrayList случайными числами
     for (int i = 0; i < 1000000; i++) {
       numbers.add(Math.random() / Math.random());

@@ -87,16 +87,21 @@
         <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.3_interface_Runnable/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/homework_ImageResizer/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/ImageResizer/pom.xml" />
-        <option value="$PROJECT_DIR$/Multithreading/Deadlock/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/Transactions/pom.xml" />
         <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/#lessons/12.7_модульное_тестирование/SPBMetro/pom.xml" />
         <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.3_log4j/SPBMetro/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/TreeHtml_via_ForkJoinPool/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/_Deadlock/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/13_FilesAndNetwork/homework_15.14_parseToJson/parseToJson/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/Deadlock/_17.14_Interfaces_Callable_and_Future/pom.xml" />
       </set>
     </option>
   </component>

@@ -55,6 +55,8 @@ public class Bank {
                 }
                 MyLogger.logger.info("зашли в transfer() - before synchronized(): fromAccountNum - " + fromAccountNum + "  toAccountNum - " + toAccountNum);
 
+                /* Простейший способ избежать взаимной блокировки – не допускать цикличного ожидания. Этого можно достичь, получая мониторы разделяемых ресурсов
+                 в определённом порядке и освобождая их в обратном порядке. */
                 synchronized (fromAccount.compareTo(toAccount) > 0 ? fromAccount : toAccount) {
                     synchronized (toAccount.compareTo(fromAccount) < 0 ? toAccount : fromAccount) {
                         MyLogger.logger.info("в transfer() - after synchronized(): fromAccountNum - " + fromAccountNum + "  toAccountNum - " + toAccountNum);

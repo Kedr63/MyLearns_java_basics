@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class _8_PathAndFilesEx3 {
@@ -29,6 +30,9 @@ public class _8_PathAndFilesEx3 {
             System.out.println(s);
         }
 
+        // от себя еще добавил (добавил этот диалог в другой файл)
+       byte[] bytesArray = Files.readAllBytes(filePath);
+        Files.write(Paths.get("test15.txt"), bytesArray, StandardOpenOption.APPEND);
 
     }
 }

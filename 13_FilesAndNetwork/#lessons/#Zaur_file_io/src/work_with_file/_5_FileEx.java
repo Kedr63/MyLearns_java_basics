@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class _5_FileEx {
     public static void main(String[] args) throws IOException {
-        // Класс File ❤️
+        // Класс File ❤️(старый класс до Java 7)
 
         /**  Класс File позволяет управлять информацией о файлах и директориях. Класс File не работает на
          напрямую с потоками, его задачей является управление информацией о файлах и каталогах (еще их называют

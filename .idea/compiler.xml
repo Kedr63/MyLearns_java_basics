@@ -11,9 +11,11 @@
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="query_builder" />
         <module name="spb-metro_forLesson_12.10" />
+        <module name="spb-metro (5)" />
         <module name="folder-copy_via_stream" />
         <module name="read-movements-csv" />
         <module name="MaskingInformation" />
+        <module name="_17.15_Executors _Executor and ExecutorService" />
         <module name="LambdaExpressions" />
         <module name="01_sumdigits" />
         <module name="homework_15.14_parseToJson" />
@@ -29,6 +31,7 @@
         <module name="ManyToOne_OneToMany" />
         <module name="__16.5_Hibernate__connectionAndSetting" />
         <module name="spb-metro" />
+        <module name="_17.15_Executors_Executor_and_ExecutorService" />
         <module name="Transactions" />
         <module name="FullNameFormatterRegExp" />
         <module name="Inheritance1" />
@@ -38,6 +41,7 @@
         <module name="spb-metro (2)" />
         <module name="folder-size (1)" />
         <module name="where_and_orderBy" />
+        <module name="_17.20_ForkJoinPool_and_RecursiveTask" />
         <module name="TodoList" />
         <module name="PhoneBook" />
         <module name="Inheritance3 (2)" />
@@ -48,6 +52,8 @@
         <module name="ConsoleCustomerList" />
         <module name="jdbc_mysql_connection" />
         <module name="MaskingInformationReqExp" />
+        <module name="_Deadlock" />
+        <module name="_17.14_Interfaces_Callable_and_Future" />
         <module name="SplitText" />
         <module name="jdbc-exp_1" />
         <module name="hibernate" />
@@ -59,6 +65,7 @@
         <module name="folder-copy_via_walkFileTree" />
         <module name="hibernate_2" />
         <module name="hibernate_1" />
+        <module name="Deadlock (1)" />
         <module name="hibernate_CKey" />
         <module name="HQL" />
         <module name="folder-copy (1)" />
@@ -72,14 +79,15 @@
         <module name="Inheritance3 (3)" />
         <module name="LambdaExpressions-Employee" />
         <module name="TotalEarningsCalculator" />
-        <module name="Deadlock" />
         <module name="homework_ImageResizer" />
         <module name="CoolNumber" />
         <module name="_17.12_Mutual blocking -- Deadlock" />
+        <module name="TreeHtml_via_ForkJoinPool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_16.2_JDBCExperiments" target="17" />
+      <module name="Deadlock (2)" target="11" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="hibernate__3" target="17" />
       <module name="hibernate_composit_key" target="17" />

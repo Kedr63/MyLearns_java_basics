@@ -18,8 +18,8 @@ public class _FileTreeCopy {
 
 
     public static void main(String[] args) throws IOException {
-        Path source = Paths.get("/Users/aleksandrshabalin/Desktop/ForWorkFiles/X");
-        Path destination = Paths.get("/Users/aleksandrshabalin/Desktop/ForWorkFiles/CopyHere");
+        Path source = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/M");
+        Path destination = Paths.get("/home/kedr/Рабочий стол/ForWork_JAVA/CopyHere");
         //  И вызываем наш метод /walkFileTree/ и передаем ему откуда мы начинаем гуляние по файловому дереву
         // и что должно происходить при хождении по этому файловому дереву. А что должно происходить описывается
         // в классе MyFileVisitor2 (мы описываем здесь что мы будем копировать и вставлять необходимую
