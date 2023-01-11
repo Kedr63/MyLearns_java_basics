@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import main.model.Book;
@@ -33,10 +34,17 @@ public class BookController
     }
 
     @PostMapping("/books/")
-    public int add(@RequestBody Book book)
+    public Book add(@RequestBody Book book)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
+    // в ответе был бы id
     {
         bookRepository.save(book);
-       return book.getId();
+       return book;
+    }
+
+    @PutMapping("/books/{id}")
+    public Book updateBook(@RequestBody Book book){
+        bookRepository.save(book);
+        return book;
     }
 
     @GetMapping("/books/{id}")
@@ -44,7 +52,7 @@ public class BookController
     {
         Optional<Book> optionalBook = bookRepository.findById(id);
         if(!optionalBook.isPresent()) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return new ResponseEntity<>(optionalBook.get(), HttpStatus.OK);
     }
@@ -54,6 +62,7 @@ public class BookController
        Optional<Book> optionalBook = bookRepository.findById(id);
        if (optionalBook.isPresent()){
            bookRepository.delete(optionalBook.get());
+           return new ResponseEntity<>(HttpStatus.OK);
        }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
     }

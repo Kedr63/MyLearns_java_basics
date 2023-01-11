@@ -8,18 +8,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="book")
 public class Book {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name="id")
   private int id;
 
-  @Column(name="name")
   private String name;
 
-  @Column(name="year")
   private int year;
 
   public int getId() {

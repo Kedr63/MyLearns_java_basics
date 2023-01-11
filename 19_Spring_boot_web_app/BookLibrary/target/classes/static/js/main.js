@@ -7,13 +7,13 @@ $(function(){
             .append('<div>' + bookCode + '</div>');
     };
 
-    //Loading books on load page
-    $.get('/books/', function(response)
-    {
-        for(i in response) {
-            appendBook(response[i]);
-        }
-    });
+   // Loading books on load page
+//    $.get('/books/', function(response)
+//    {
+//        for(i in response) {
+//            appendBook(response[i]);
+//        }
+//    });
 
     //Show adding book form
     $('#show-add-book-form').click(function(){
@@ -52,7 +52,8 @@ $(function(){
     //Adding book
     $('#save-book').click(function()
     {
-        var data = $('#book-form form').serialize();
+    //    var data = $('#book-form form').serialize();
+     var data = $('#book-form').serialize();
         $.ajax({
             method: "POST",
             url: '/books/',
@@ -62,7 +63,7 @@ $(function(){
                 $('#book-form').css('display', 'none');
                 var book = {};
                 book.id = response;
-                var dataArray = $('#book-form form').serializeArray();
+                var dataArray = $('#book-form').serializeArray();
                 for(i in dataArray) {
                     book[dataArray[i]['name']] = dataArray[i]['value'];
                 }
