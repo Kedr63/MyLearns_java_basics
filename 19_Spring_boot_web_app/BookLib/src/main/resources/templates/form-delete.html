@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form delete book</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <!-- <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/main.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<p>Форма удаления книги</p>
+        <form action="#" th:action="@{/books/{id}}" th:object="${book}" method="get">
+            <p>Id book: <input type="text" th:field="*{id}" /></p>
+            <p><input type="submit" value="Delete book" /> <input type="reset" value="Reset" /></p>
+        </form>
+<div style="margin-top: 20px">
+  <a href="/">Return on main</a>
+</div>
+       <!-- <form action="#" th:action="@{/books}" th:object="${book}" method="post">
+            <h2>Добавление книги</h2>
+           &lt;!&ndash; <label>Название книги:</label>&ndash;&gt;
+            <input type="text" name="name" th:field="*{name}">
+           &lt;!&ndash; <label>Год выпуска:</label>&ndash;&gt;
+            <input type="text" name="year" th:field="*{year}">
+            <hr>
+            <button id="save-book">Сохранить</button>
+            &lt;!&ndash;<input type="submit" value="Send" />&ndash;&gt;
+        </form>-->
+
+
+    <!--<h1>Библиотека (<span th:text="${booksCount}">0</span>)</h1>
+    <button id="show-add-book-form">Добавить книгу</button>
+    <br><br>
+
+    <div id="book-list">
+        <div th:each="book : ${books}">
+            <a href="#" class="book-link" th:attr="data-id=${book.id}" th:text="${book.name}"></a>
+        </div>
+    </div>-->
+</body>
+</html>

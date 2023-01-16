@@ -22,11 +22,24 @@
     <h1>Библиотека (<span th:text="${booksCount}">0</span>)</h1>
     <button id="show-add-book-form">Добавить книгу</button>
     <br><br>
+
+    <p>Show <a href="/books">books</a></p>
     <div id="book-list">
+        <form action="#" th:action="@{/books}" method="get">
+
+            <label>Название книги:</label>
+            <input type="text" name="name" th:field="*{name}">
+            <label>Год выпуска:</label>
+            <input type="text" name="year" th:field="*{year}">
+            <hr>
+            <button id="save-list">Показать книги</button>
+        </form>
+    </div>
+ <!--   <div id="book-list">
         <div th:each="book : ${books}">
             <a href="#" class="book-link" th:attr="data-id=${book.id}" th:text="${book.name}"></a>
         </div>
     </div>
-    <p th:text="${someParameter}"></p>
+    <p th:text="${someParameter}"></p>-->
 </body>
 </html>
