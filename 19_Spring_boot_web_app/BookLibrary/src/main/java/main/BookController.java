@@ -7,22 +7,38 @@ import main.model.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import main.model.Book;
 
-@RestController
+@Controller
 public class BookController
 {
     @Autowired
     private BookRepository bookRepository;
 
-    @GetMapping("/books/")
+    @RequestMapping("/")
+    public String index(Model model) {
+        Iterable<Book> bookIterable = bookRepository.findAll();
+        ArrayList<Book> books = new ArrayList<>();
+        for (Book book : bookIterable){
+            books.add(book);
+        }
+        model.addAttribute("books", books); // теперь этот model будет доступен в index.html
+        model.addAttribute("booksCount", books.size());
+        return "index";
+    }
+
+   /* @GetMapping("/books/")
     public List<Book> list()
     {
         Iterable<Book> bookIterable = bookRepository.findAll();
@@ -31,14 +47,37 @@ public class BookController
             books.add(book);
         }
         return books;
+    }*/
+
+    @GetMapping("/books")
+    public String list(Model model)
+    {
+        Iterable<Book> bookIterable = bookRepository.findAll();
+        ArrayList<Book> books = new ArrayList<>();
+        for(Book book : bookIterable) {
+            books.add(book);
+        }
+        model.addAttribute("books", books);
+        model.addAttribute("booksCount", books.size());
+        return "books";
     }
 
-    @PostMapping("/books/")
-    public Book add(@RequestBody Book book)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
+    /*@PostMapping("/books/")
+    public String add(@RequestBody Book book, Model model)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
     // в ответе был бы id
     {
         bookRepository.save(book);
-       return book;
+        model.addAttribute("book", book);
+       return "index/books/";
+    }*/
+
+    @PostMapping("/books")
+    public String add(@RequestBody Book book, Model model)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
+    // в ответе был бы id
+    {
+        model.addAttribute("book", book);
+        bookRepository.save(book);
+        return "books";
     }
 
     @PutMapping("/books/{id}")

@@ -1,13 +1,12 @@
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import
 
 public class Main {
 
     public static void main(String[] args) {
-        String srcFolder = "/users/sortedmap/Desktop/src";
-        String dstFolder = "/users/sortedmap/Desktop/dst";
+        String srcFolder = "/home/kedr/Рабочий стол/java_for_course/src";
+        String dstFolder = "/home/kedr/Рабочий стол/java_for_course/dst";
 
         File srcDir = new File(srcFolder);
 

@@ -47,9 +47,9 @@ public class FolderProcessor extends RecursiveTask<List<String>> {
     //For each element in the folder, if there is a subfolder, create a new
     // FolderProcessor object
     //and execute it asynchronously using the fork() method.
-    if (content != null) {
+    if (content != null) {        // если в папке не null (а что-то есть, то проверим - файл или директория)
       for (int i = 0; i < content.length; i++) {
-        if (content[i].isDirectory()) {
+        if (content[i].isDirectory()) {  // если директория, то создадим новый таск
           FolderProcessor task =
               new FolderProcessor(content[i].getAbsolutePath(), extension);
           task.fork();

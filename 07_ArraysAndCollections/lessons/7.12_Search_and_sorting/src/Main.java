@@ -26,7 +26,7 @@ public class Main {
         // так работают HashMap и HashSet
 
 
-        // Для бинарного поиска есть класс Collection (для листов и коллекций)
+        // Для бинарного поиска есть класс Collections (для листов и коллекций)
         ArrayList<String> items = new ArrayList<>();
         items.add("as");
         items.add("ba");

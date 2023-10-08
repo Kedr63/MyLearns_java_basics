@@ -10,8 +10,8 @@
 <body>
 <p>Форма добавления книги</p>
         <form action="#" th:action="@{/books}" th:object="${book}" method="post">
-            <p>Название: <input type="text" th:field="*{name}" /></p>
-            <p>Год выхода: <input type="text" th:field="*{year}" /></p>
+            <p>Название: <input type="text" th:field="*{name}" th:value="*{name}"/></p>
+            <p>Год выхода: <input type="text" th:field="*{year}" th:value="*{year}"/></p>
             <p><input type="submit" value="Add" /> <input type="reset" value="Reset" /></p>
         </form>
 <div style="margin-top: 20px">

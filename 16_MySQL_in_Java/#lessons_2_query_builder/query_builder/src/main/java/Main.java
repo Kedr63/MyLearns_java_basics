@@ -1,7 +1,10 @@
+import static java.util.Arrays.*;
+
 import com.mysql.cj.x.protobuf.MysqlxCrud;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
+import java.util.stream.Collectors;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -68,7 +71,7 @@ public class Main {
         // можно так (аналогично выше)
         List<Student> students1 = session.createQuery("select s from Student s", Student.class).getResultList();
         for (Student student : students1){
-            System.out.println("student: " + student);
+            System.out.println("student(аналог): " + student);
         }
         System.out.println("распечатали студентов");
 
@@ -106,7 +109,7 @@ public class Main {
                                 "where sb.student = st and sb is not null", Object[].class).getResultList();
         System.out.println("Object[]");
         for (Object [] objects : studentList2){
-            System.out.println(Arrays.stream(objects).toList());
+            System.out.println(stream(objects).collect(Collectors.toList()));
         }
 
         /* Выборка данных с помощью Criteria. Вы можете создавать запросы без написания SQL запросов (только с помощью объектов) */
@@ -132,7 +135,7 @@ public class Main {
         System.out.println("Собственные SQL-запросы");
         List<Object[]> listStudents = session.createNativeQuery("SELECT * FROM Students").getResultList();
         for (Object [] obs : listStudents){
-            System.out.println(Arrays.stream(obs).toList());
+            System.out.println(stream(obs).collect(Collectors.toList()));
         }
 
 
@@ -142,7 +145,7 @@ public class Main {
                         "SELECT id, name FROM Students").list();
 
         for(Object[] student : studentsList1) {
-            int id = (int) student[0];
+            int id = (int) student[0];     // 0-й элемент объекта это id, 1-й элемент объекта это name
             String name = (String) student[1];
             System.out.println(id + " " + name);
         }

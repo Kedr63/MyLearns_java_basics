@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Book Library</title>
@@ -9,12 +9,14 @@
 </head>
 <body>
     <div id="book-form">
-        <form>
+        <form action="#" th:action="@{/books}" th:object="${book}" method="post">
             <h2>Добавление книги</h2>
-            <label>Название книги:</label>
-            <input type="text" name="name" value="">
+<!--            <label>Название книги:</label>-->
+          <!--  <input type="text" th:field="*{name}" >
             <label>Год выпуска:</label>
-            <input type="text" name="year" value="">
+            <input type="text" th:field="*{year}" >-->
+            <p>Id: <input type="text"  /></p>
+            <p>Message: <input type="text"  /></p>
             <hr>
             <button id="save-book">Сохранить</button>
         </form>
@@ -22,24 +24,11 @@
     <h1>Библиотека (<span th:text="${booksCount}">0</span>)</h1>
     <button id="show-add-book-form">Добавить книгу</button>
     <br><br>
-
-    <p>Show <a href="/books">books</a></p>
     <div id="book-list">
-        <form action="#" th:action="@{/books}" method="get">
-
-            <label>Название книги:</label>
-            <input type="text" name="name" th:field="*{name}">
-            <label>Год выпуска:</label>
-            <input type="text" name="year" th:field="*{year}">
-            <hr>
-            <button id="save-list">Показать книги</button>
-        </form>
-    </div>
- <!--   <div id="book-list">
         <div th:each="book : ${books}">
-            <a href="#" class="book-link" th:attr="data-id=${book.id}" th:text="${book.name}"></a>
+            <a href="#" class="book-link" th:attr="data-id=${book.id}" th:text="${book.name}"></a><span th:text="${book.year}"></span>
         </div>
     </div>
-    <p th:text="${someParameter}"></p>-->
+    <p th:text="${someParameter}"></p>
 </body>
 </html>

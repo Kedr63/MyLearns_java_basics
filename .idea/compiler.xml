@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -10,39 +11,46 @@
         <module name="lazy_load" />
         <module name="TotalEarningsCalculatorReqExp" />
         <module name="query_builder" />
+        <module name="bookLibrary (2) (bookLibrary)" />
         <module name="spb-metro_forLesson_12.10" />
         <module name="spb-metro (5)" />
+        <module name="VoterAnalyzer" />
+        <module name="BookLibrary (1) (org.kedr)" />
         <module name="folder-copy_via_stream" />
         <module name="read-movements-csv" />
         <module name="MaskingInformation" />
         <module name="_17.15_Executors _Executor and ExecutorService" />
         <module name="LambdaExpressions" />
         <module name="01_sumdigits" />
+        <module name="VoteAnalyzer_for_test" />
+        <module name="mongodemo" />
         <module name="homework_15.14_parseToJson" />
         <module name="GeometryCalculator" />
         <module name="spb-metro (1)" />
         <module name="Hospital" />
         <module name="hibernate__3" />
+        <module name="z_VoterAnalyzer_homework_via_Redis" />
         <module name="Inheritance3 (1)" />
         <module name="jdbc-exp" />
         <module name="folder-size (2)" />
         <module name="folder-copy (3)" />
+        <module name="VoterAnalyzer_via_mySql_2" />
         <module name="folder-copy" />
         <module name="ManyToOne_OneToMany" />
         <module name="__16.5_Hibernate__connectionAndSetting" />
         <module name="spb-metro" />
         <module name="_17.15_Executors_Executor_and_ExecutorService" />
-        <module name="Transactions" />
+        <module name="BookLib" />
         <module name="FullNameFormatterRegExp" />
         <module name="Inheritance1" />
+        <module name="TodoList (1) (ru.skillbox)" />
         <module name="TwoDimensionalArray" />
-        <module name="_17.3_interface_Runnable" />
         <module name="Inheritance3" />
         <module name="spb-metro (2)" />
         <module name="folder-size (1)" />
         <module name="where_and_orderBy" />
+        <module name="DesktopAppFIO" />
         <module name="_17.20_ForkJoinPool_and_RecursiveTask" />
-        <module name="TodoList" />
         <module name="PhoneBook" />
         <module name="Inheritance3 (2)" />
         <module name="PhoneCleaner" />
@@ -52,62 +60,62 @@
         <module name="ConsoleCustomerList" />
         <module name="jdbc_mysql_connection" />
         <module name="MaskingInformationReqExp" />
-        <module name="_Deadlock" />
         <module name="_17.14_Interfaces_Callable_and_Future" />
         <module name="SplitText" />
         <module name="jdbc-exp_1" />
         <module name="hibernate" />
         <module name="FullNameFormatter" />
         <module name="TrucksContainersAndBoxes" />
+        <module name="_9.7_Regex" />
+        <module name="CarNumberGenerator_optimization" />
         <module name="BirthdayCalendar" />
+        <module name="java_basics" />
         <module name="folder-size" />
         <module name="ImageResizer" />
         <module name="folder-copy_via_walkFileTree" />
-        <module name="hibernate_2" />
         <module name="hibernate_1" />
-        <module name="Deadlock (1)" />
         <module name="hibernate_CKey" />
         <module name="HQL" />
         <module name="folder-copy (1)" />
-        <module name="_17.2_Class_Thread" />
         <module name="spb-metro (4)" />
+        <module name="_17.2_Class_Thread" />
         <module name="ReverseArray" />
         <module name="hibernate_create_table" />
         <module name="hibernate_edit_dates_BD" />
         <module name="manyToMany" />
+        <module name="VoterAnalyzer_homework" />
         <module name="EmailList" />
         <module name="Inheritance3 (3)" />
         <module name="LambdaExpressions-Employee" />
         <module name="TotalEarningsCalculator" />
+        <module name="usersSiteDating" />
         <module name="homework_ImageResizer" />
         <module name="CoolNumber" />
         <module name="_17.12_Mutual blocking -- Deadlock" />
+        <module name="ToDoList (2) (org.kedr)" />
         <module name="TreeHtml_via_ForkJoinPool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="_16.2_JDBCExperiments" target="17" />
-      <module name="Deadlock (2)" target="11" />
+      <module name="BookLibrary" target="11" />
+      <module name="bookLibrary" target="1.8" />
       <module name="FullNameFormatterRegExp" target="11" />
       <module name="hibernate__3" target="17" />
-      <module name="hibernate_composit_key" target="17" />
-      <module name="hibernate_edited_dates_BD" target="17" />
-      <module name="hibernate_edited_dates_datebase" target="17" />
-      <module name="hibernate_query_builder" target="17" />
-      <module name="homework_15.14_parseToJson_way2" target="16" />
-      <module name="homework_16.6" target="17" />
-      <module name="homework_16_4__jdbc_mysql_connection" target="17" />
-      <module name="hospital" target="17" />
-      <module name="html-parseJSON" target="16" />
-      <module name="jdbc-work_1" target="17" />
-      <module name="ManyToMany" target="17" />
       <module name="MaskingInformationReqExp" target="11" />
-      <module name="parse-html-json" target="16" />
-      <module name="parse-html___json" target="16" />
-      <module name="parse-html___json2" target="16" />
-      <module name="parseToJson" target="16" />
-      <module name="parsing-HTML-files" target="16" />
+      <module name="TodoList" target="11" />
+      <module name="ToDoList" target="11" />
       <module name="TotalEarningsCalculatorReqExp" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookLib" options="-parameters" />
+      <module name="ToDoList" options="-parameters" />
+      <module name="ToDoList (2) (org.kedr)" options="-parameters" />
+      <module name="VoterAnalyzer_homework" options="" />
+      <module name="bookLibrary" options="-parameters" />
+      <module name="bookLibrary (2) (bookLibrary)" options="-parameters" />
+      <module name="jdbc_mysql_connection" options="" />
+    </option>
   </component>
 </project>

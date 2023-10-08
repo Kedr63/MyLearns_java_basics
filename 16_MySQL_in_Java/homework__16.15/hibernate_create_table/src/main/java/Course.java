@@ -21,7 +21,7 @@ public class Course {
     private String description;
 
     /* @Column(name = "teacher_id")*/
-    // Для создания связи - поле выше поменяем на поле ниже: (при таком каскаде удалив курс учитель не удалится)
+    // Для создания связи - поле выше поменяем на поле ниже: (при таком каскаде удалив курс, учитель не удалится)
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.MERGE})
     private Teacher teacher;
 

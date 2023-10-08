@@ -32,7 +32,7 @@ public class Main {
 
         //Есть и короткая запись добавления элементов (быстрая инициализация)
 
-        ArrayList<String> toDoList1 = new ArrayList<>(){{
+        ArrayList<String> toDoList1 = new ArrayList(){{
             add("Первое наше дело");
             add("Второе наше дело");
         }};

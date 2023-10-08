@@ -3,7 +3,7 @@ import java.sql.*;
 public class MainWork {
     private static final String URL = "jdbc:mysql://localhost:3306/skillbox";
     private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String PASS = "2805";
     private static final String QUERY_AVG_COUNT_PURCHASE = "SELECT course_name, " +
             "COUNT(*) / (MONTH(MAX(subscription_date)) - MONTH(MIN(subscription_date)) + 1) " +
             "AS avg_count_purchase_per_month FROM PurchaseList " +

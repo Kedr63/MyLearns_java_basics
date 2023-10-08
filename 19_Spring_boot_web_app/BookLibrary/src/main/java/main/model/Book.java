@@ -18,6 +18,9 @@ public class Book {
 
   private int year;
 
+  public Book() {
+  }
+
   public int getId() {
     return id;
   }

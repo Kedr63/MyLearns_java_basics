@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CarNumberGenerator/CarNumberGenerator.iml" filepath="$PROJECT_DIR$/CarNumberGenerator/CarNumberGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Performance.iml" filepath="$PROJECT_DIR$/.idea/Performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VoteAnalyzer/VoteAnalyzer.iml" filepath="$PROJECT_DIR$/VoteAnalyzer/VoteAnalyzer.iml" />
+    </modules>
+  </component>
+</project>

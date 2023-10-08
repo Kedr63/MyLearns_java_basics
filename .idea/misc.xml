@@ -74,7 +74,6 @@
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#les/manyToMany/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_1/16.9_Связь_ManyToMany/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/hibernate_2/pom.xml" />
-        <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework_16.10/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/homework__16.10/hibernate__2/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_1/hibernate_query_builder/pom.xml" />
         <option value="$PROJECT_DIR$/16_MySQL_in_Java/#lessons_2_query_builder/query_builder/pom.xml" />
@@ -96,6 +95,33 @@
         <option value="$PROJECT_DIR$/Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/TreeHtml_via_ForkJoinPool/pom.xml" />
         <option value="$PROJECT_DIR$/Multithreading/_Deadlock/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootWebDevelopment/BookLibrary/pom.xml" />
+        <option value="$PROJECT_DIR$/NoSQL/homeWork_usersSiteDating/usersSiteDating/pom.xml" />
+        <option value="$PROJECT_DIR$/NoSQL/skill-mongo-java/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/pom.xml" />
+        <option value="$PROJECT_DIR$/21_Разработка_Desktop_приложений/DesktopAppFIO/pom.xml" />
+        <option value="$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO/pom.xml" />
+        <option value="$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO_3_reduce/pom.xml" />
+        <option value="$PROJECT_DIR$/19_Spring_boot_web_app/BookLibrary/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootWebDevelopment/ToDoList/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/#lessons/_17.2_Class_Thread/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/ImageResizer/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/homework_ImageResizer/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/homework_CarNumberGenerator_optimization/CarNumberGenerator_optimization/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoteAnalyzer_for_test/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoteAnalyzer_via_SAX/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoterAnalyzer/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql_2/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/VoterAnalyzer_homework/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework/pom.xml" />
+        <option value="$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework_via_Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/19_Spring_boot_web_app/BookLib/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/TreeHtml_via_ForkJoinPool/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/pom.xml" />
+        <option value="$PROJECT_DIR$/17_Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -109,7 +135,10 @@
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.3/EmailList/src/main/java/_TreeSet_create_" />
     <file url="file://$PROJECT_DIR$/07_ArraysAndCollections/homework_7.4/PhoneBook/src/main/java/_Task__Map_create" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

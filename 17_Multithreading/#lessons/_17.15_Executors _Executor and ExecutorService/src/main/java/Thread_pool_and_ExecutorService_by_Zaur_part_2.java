@@ -48,7 +48,7 @@ class ThreadPoolExScheduleWithFixedDelay{
   public static void main(String[] args) throws InterruptedException {
     ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
     scheduledExecutorService.scheduleWithFixedDelay(new RunnableImp1200(), 3, 1, TimeUnit.SECONDS);
-    /* Отличается от предыдущего метода тем, что периодичность здесь начинет от завершения таска и до начала следующего таска
+    /* Отличается от предыдущего метода тем, что периодичность здесь начинает от завершения таска и до начала следующего таска
     * (см. картинку scheduleWithFixedDelay.png) */
 
     Thread.sleep(20000); /* Если поток main не усыпим, таск выполнится только один раз и метод shutdown сразу завершит программу */

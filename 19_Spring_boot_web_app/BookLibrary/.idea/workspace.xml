@@ -5,15 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e441f39c-cef9-401b-9187-a6d0bb6d9661" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.12_Search_and_sorting/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.12_Search_and_sorting/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.1_create_arrays/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.1_create_arrays/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.6_list_of_elements/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_ArraysAndCollections/lessons/7.6_list_of_elements/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_AdvancedOOPFeatures/#lessons/11.6_Sorted,_max,_min/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_AdvancedOOPFeatures/#lessons/11.6_Sorted,_max,_min/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons/16.2_Подключение_через_JDBC/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons/16.2_Подключение_через_JDBC/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_2_query_builder/query_builder/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_3_ленивая_загрузка_данных/lazy_load/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_4_Where и OrderBy/where_and_orderBy/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_4_Where и OrderBy/where_and_orderBy/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_5_HQL/HQL/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/#lessons_5_HQL/HQL/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.4/src/main/java/MainWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.4/src/main/java/MainWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/java/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/java/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework_16.6/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/src/main/java/PurchaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/src/main/java/PurchaseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.11/hibernate_CKey/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/src/main/java/PurchaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/src/main/java/PurchaseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_MySQL_in_Java/homework__16.15/hibernate_create_table/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17_Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/java/Callable_and_Future_by_Zaur_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/java/Callable_and_Future_by_Zaur_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17_Multithreading/ImageResizer/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Multithreading/ImageResizer/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17_Multithreading/homework_ImageResizer/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Multithreading/homework_ImageResizer/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookLib/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../BookLib/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookLib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookLib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookLib/src/main/java/com/kedr/BookLib/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BookLib/src/main/java/com/kedr/BookLib/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookLib/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BookLib/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21_DesktopApp/DesktopAppFIO_3_for_cheking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_DesktopApp/DesktopAppFIO_3_for_cheking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NoSQL/skill-mongo-java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NoSQL/skill-mongo-java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NoSQL/skill-redis-java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NoSQL/skill-redis-java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/VoteAnalyzer_via_SAX/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/VoteAnalyzer_via_SAX/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/VoterAnalyzer_via_mySql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/VoterAnalyzer_via_mySql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/VoterAnalyzer_via_mySql_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/VoterAnalyzer_via_mySql_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/homework_CarNumberGenerator_optimization/CarNumberGenerator_optimization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/homework_CarNumberGenerator_optimization/CarNumberGenerator_optimization/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/z_VoterAnalyzer_homework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/z_VoterAnalyzer_homework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Performance/z_VoterAnalyzer_homework_via_Redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Performance/z_VoterAnalyzer_homework_via_Redis/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +81,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2K7Tuj8GI5XBXf5eztFSInA4ODj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,15 +90,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/kedr/my_space/Skillbox/MyLearns_java_basics/19_Spring_boot_web_app/BookLibrary"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/kedr/my_space/Skillbox/MyLearns_java_basics/19_Spring_boot_web_app/BookLibrary",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/response" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main" />
@@ -85,8 +145,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673324851832</updated>
+      <workItem from="1683394798268" duration="911000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

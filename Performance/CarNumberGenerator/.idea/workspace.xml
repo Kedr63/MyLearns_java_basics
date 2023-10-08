@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e52af9b8-d5d8-4d35-81aa-a2bd1081e8db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../21_DesktopApp/DesktopAppFIO/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../21_DesktopApp/DesktopAppFIO_3_for_cheking/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NoSQL/homeWork_usersSiteDating/usersSiteDating/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_AdvancedOOPFeatures/#lessons/11.6_Sorted,_max,_min/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_AdvancedOOPFeatures/#lessons/11.6_Sorted,_max,_min/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_AdvancedOOPFeatures/#lessons/11.6_Sorted,_max,_min/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_FilesAndNetwork/homework_15.14_parseToJson/src/main/java/Задание" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_FilesAndNetwork/homework_15.14_parseToJson/src/main/java/Задание.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_FilesAndNetwork/homework_15.14_parseToJson/src/main/java/Сдача ДЗ" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_FilesAndNetwork/homework_15.14_parseToJson/src/main/java/Сдача ДЗ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/src/main/java/com/kedr/BookLib/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLib/src/main/java/com/kedr/BookLib/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/java/main/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/target/classes/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/target/classes/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Spring_boot_web_app/BookLibrary/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2LT1pwpj0Kg0TWU3yyLzThPnbt0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/kedr/my_space/Skillbox/MyLearns_java_basics/Performance"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e52af9b8-d5d8-4d35-81aa-a2bd1081e8db" name="Changes" comment="" />
+      <created>1675880444406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675880444406</updated>
+    </task>
+    <servers />
+  </component>
+</project>

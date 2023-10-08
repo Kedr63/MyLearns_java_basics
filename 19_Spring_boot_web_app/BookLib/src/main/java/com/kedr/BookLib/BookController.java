@@ -5,6 +5,8 @@ import com.kedr.BookLib.model.BookRepository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import org.apache.tomcat.util.json.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -80,10 +82,10 @@ public class BookController
        return "index/books/";
     }*/
 
-   /* @PostMapping(value = "/books",
-    consumes = (MediaType.APPLICATION_JSON_VALUE))*/
-    @PostMapping("/books")
-    public String add(Book book, Model model)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
+    @PostMapping(value = "/books",
+    consumes = (MediaType.APPLICATION_JSON_VALUE))
+ //   @PostMapping("/books")
+    public String add(@RequestBody Book book, Model model)  // Вернет в ответе книгу в JSON, если бы написал int и в return return book.getId() -> то
     // в ответе был бы id
     {
         model.addAttribute("book", book);

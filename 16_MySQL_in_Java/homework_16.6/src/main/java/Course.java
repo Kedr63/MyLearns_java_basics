@@ -1,4 +1,4 @@
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Courses")
@@ -21,7 +21,7 @@ public class Course {
     private int teacherId;
 
     @Column(name = "students_count")
-    private Integer studentsCount; // делаем Integer так в талице есть значение null
+    private Integer studentsCount; // делаем Integer так в таблице есть значение null
 
     private int price;
 

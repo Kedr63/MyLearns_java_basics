@@ -15,7 +15,8 @@ public class Main {
 
     File srcDir = new File(srcFolder);
 
-    int coresCountProcessor = Runtime.getRuntime().availableProcessors(); // определим сколько ядер у процессора
+      int coresCountProcessor = Runtime.getRuntime().availableProcessors(); // определим сколько ядер у процессора
+  //  int coresCountProcessor = 5;
 
     long start = System.currentTimeMillis();
 
@@ -29,10 +30,12 @@ public class Main {
           if (indexStartArray == scrArrayFiles.length){
             break;
           }
+          // здесь найдем длину крайнего правого (последний по порядку) подмассива общего массива фото
           if (i == coresCountProcessor && scrArrayFiles.length > coresCountProcessor && lengthLastArrayForThread != 0){ // если количество фото больше количества ядер и не кратно массиву
             lengthOfArrayForThread = lengthOfArrayForThread + lengthLastArrayForThread;
           }
-          if (lengthOfArrayForThread == 0 && indexStartArray < scrArrayFiles.length){ // если количество фото меньше чем ядер процессора
+          // если количество фото меньше чем ядер процессора, то каждую фото последовательно передадим в разные потоки
+          if (lengthOfArrayForThread == 0 && indexStartArray < scrArrayFiles.length){
             lengthOfArrayForThread = 1;
           }
           File[] files1 = createFilesArray(scrArrayFiles, lengthOfArrayForThread, indexStartArray);

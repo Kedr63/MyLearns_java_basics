@@ -51,7 +51,12 @@
 			<version>3.0.1</version>
 		</dependency>
 
-
+		<!-- Добавил сам отсюда https://www.baeldung.com/spring-validate-requestparam-pathvariable -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.10.Final</version>
+		</dependency>
 	</dependencies>
 
 	<build>

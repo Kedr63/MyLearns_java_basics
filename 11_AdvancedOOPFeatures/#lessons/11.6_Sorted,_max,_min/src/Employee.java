@@ -1,6 +1,7 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -10,15 +11,15 @@ public class Employee {
 
   private String name;
   private Integer salary;
-  private Date workStart;
+  private LocalDate workStart;
 
-  public Employee(String name, Integer salary, Date workStart) {
+  public Employee(String name, Integer salary, LocalDate workStart) {
     this.name = name;
     this.salary = salary;
     this.workStart = workStart;
   }
 
-  public static List<Employee> loadStaffFromFile(String path) {
+  /*public static List<Employee> loadStaffFromFile(String path) {
     List<Employee> staff = new ArrayList<>();
     try {
       List<String> lines = Files.readAllLines(Paths.get(path));
@@ -39,7 +40,7 @@ public class Employee {
       ex.printStackTrace();
     }
     return staff;
-  }
+  }*/
 
   public String getName() {
     return name;
@@ -57,17 +58,16 @@ public class Employee {
     this.salary = salary;
   }
 
-  public Date getWorkStart() {
+  public LocalDate getWorkStart() {
     return workStart;
   }
 
-  public void setWorkStart(Date workStart) {
+  public void setWorkStart(LocalDate workStart) {
     this.workStart = workStart;
   }
 
   public String toString() {
-    return name + " - " + salary + " - " +
-        (new SimpleDateFormat("dd.MM.yyyy")).format(workStart);
+    return name + " - " + salary + " - " + workStart;
   }
 
  @Override

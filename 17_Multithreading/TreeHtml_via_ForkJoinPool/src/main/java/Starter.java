@@ -38,22 +38,22 @@ public class Starter {
     System.out.println("nodeList.size() = " + nodeList.size());
   }
 
-  // из полученных ссылок вернем список с готовыми Узлами Node (Node: родитель -> дети)
-  private static List<Node> getListNodes(Set<String> stringSet) {
-    List<Node> listPathsPages = new ArrayList<>();
-    for (String path : stringSet) {
-      List<String> pathsPage = new ArrayList<>();
-      String catalogs = path.replaceAll("(ht{2}ps?://[a-z]+\\.\\w+)?(/.+)?", "$2");
-      String[] arrayPath = catalogs.split("/");
-      StringBuilder builder = new StringBuilder();
-      for (int i = 0; i < arrayPath.length; i++) {
-        String st = "\t".repeat(i) + titlePage + builder.append(arrayPath[i]).append("/");
-        pathsPage.add(st);
-      }
-      listPathsPages.add(new Node(pathsPage));
+    // из полученных ссылок вернем список с готовыми Узлами Node (Node: родитель -> дети)
+    private static List<Node> getListNodes(Set<String> stringSet) {
+        List<Node> listPathsPages = new ArrayList<>();
+        for (String path : stringSet) {
+            List<String> pathsPage = new ArrayList<>();
+            String catalogs = path.replaceAll("(ht{2}ps?://[a-z]+\\.\\w+)?(/.+)?", "$2");
+            String[] arrayPath = catalogs.split("/");
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < arrayPath.length; i++) {
+                String st = "\t".repeat(i) + titlePage + builder.append(arrayPath[i]).append("/");
+                pathsPage.add(st);
+            }
+            listPathsPages.add(new Node(pathsPage));
+        }
+        return listPathsPages;
     }
-    return listPathsPages;
-  }
 }
 
 

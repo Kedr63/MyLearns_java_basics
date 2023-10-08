@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/MaskingInformation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/TotalEarningsCalculator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.4_char_notUse_regExp/TotalEarningsCalculator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/#lessons/_9.7_Regex/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/FullNameFormatterRegExp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/MaskingInformationReqExp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NumbersStringsAndDates/homework_4.5_RexExp/PhoneCleaner/src/main/java" charset="UTF-8" />
@@ -46,6 +48,8 @@
     <file url="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_2_case/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_three_case/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/10_InheritanceAndPolymorphism/homework_10.3_three_case/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11_AdvancedOOPFeatures/#lessons/_11.6_Sorted_max_min/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11_AdvancedOOPFeatures/#lessons/_11.6_Sorted_max_min/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11_AdvancedOOPFeatures/homework_11.1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11_AdvancedOOPFeatures/homework_11.1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11_AdvancedOOPFeatures/homework_11.2/Employees/src/main/java" charset="UTF-8" />
@@ -74,33 +78,63 @@
     <file url="file://$PROJECT_DIR$/13_FilesAndNetwork/homework_13.2_2_via_walkFileTree/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/13_FilesAndNetwork/homework_13.3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/13_FilesAndNetwork/homework_13.3/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.2_Class_Thread/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.2_Class_Thread/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.3_interface_Runnable/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/#lessons/_17.3_interface_Runnable/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Deadlock/_17.14_Interfaces_Callable_and_Future/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Deadlock/_17.14_Interfaces_Callable_and_Future/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Deadlock/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Deadlock/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/ImageResizer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/ImageResizer/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Transactions/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/Transactions/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/TreeHtml_via_ForkJoinPool/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/TreeHtml_via_ForkJoinPool/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/_Deadlock/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/_Deadlock/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/homework_ImageResizer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Multithreading/homework_ImageResizer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.12_Mutual blocking -- Deadlock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.14_Interfaces_Callable_and_Future/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.15_Executors _Executor and ExecutorService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.20_ForkJoinPool_and_RecursiveTask/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.2_Class_Thread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.2_Class_Thread/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.3_interface_Runnable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/#lessons/_17.3_interface_Runnable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Deadlock/_17.14_Interfaces_Callable_and_Future/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Deadlock/_17.14_Interfaces_Callable_and_Future/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Deadlock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Deadlock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/ImageResizer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/ImageResizer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Transactions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/Transactions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/TreeHtml_via_ForkJoinPool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/TreeHtml_via_ForkJoinPool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/_Deadlock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/_Deadlock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/homework_ImageResizer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17_Multithreading/homework_ImageResizer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19_Spring_boot_web_app/BookLib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19_Spring_boot_web_app/BookLib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19_Spring_boot_web_app/BookLibrary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19_Spring_boot_web_app/BookLibrary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO_3_for_cheking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_DesktopApp/DesktopAppFIO_3_for_cheking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NoSQL/homeWork_usersSiteDating/usersSiteDating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NoSQL/homeWork_usersSiteDating/usersSiteDating/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoteAnalyzer_via_SAX/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoteAnalyzer_via_SAX/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/VoterAnalyzer_via_mySql_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/homework_CarNumberGenerator_optimization/CarNumberGenerator_optimization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/homework_CarNumberGenerator_optimization/CarNumberGenerator_optimization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework_via_Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Performance/z_VoterAnalyzer_homework_via_Redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootWebDevelopment/BookLibrary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootWebDevelopment/BookLibrary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootWebDevelopment/ToDoList/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootWebDevelopment/ToDoList/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework_ImageResizer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework_ImageResizer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

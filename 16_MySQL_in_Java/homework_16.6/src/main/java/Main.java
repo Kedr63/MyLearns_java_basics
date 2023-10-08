@@ -6,7 +6,7 @@ public class Main {
         SessionFactory sessionFactory = SessionUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
-        Student student = session.get(Student.class, 1);
+        Student student = session.get(Student.class, 2);
         System.out.println(student.getName() + " " + student.getRegistrationDate() + "\n");
 
         int id = 1;

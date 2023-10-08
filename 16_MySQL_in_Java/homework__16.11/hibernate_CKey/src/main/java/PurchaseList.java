@@ -3,7 +3,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "PurchaseList",uniqueConstraints = @UniqueConstraint(columnNames = {"student_name","course_name"}))
+@Table(name = "PurchaseList", uniqueConstraints = @UniqueConstraint(columnNames = {"student_name", "course_name"}))
 public class PurchaseList {
     // Эта таблица будет заполняться данными с Subscriptions и Course в main
 

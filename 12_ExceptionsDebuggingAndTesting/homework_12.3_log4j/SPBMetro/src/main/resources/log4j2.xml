@@ -17,6 +17,7 @@
             <Filters>
                 <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
                 <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+<!--                onMismatch - несоответствие, onMatch - совпадение -->
             </Filters>
         </File>
         <File name="ExceptionsFile" fileName="logs/exceptions.log">
@@ -31,7 +32,7 @@
         <!-- additivity="false" для того чтобы не писать в root логгер -->
         <logger name="__MainInsertUpdate" level="info" additivity="false">
             <appender-ref ref="SearchFile" level="info"/>
-            <appender-ref ref="InputErrorFile" />  <!-- appender с двумя пороговыми фильтрами, которые и определяют уроаень (это как 2-й вариант настройки appender)-->
+            <appender-ref ref="InputErrorFile" />  <!-- appender с двумя пороговыми фильтрами, которые и определяют уровень (это как 2-й вариант настройки appender)-->
             <appender-ref ref="ExceptionsFile" level="error"/> <!-- appender c одним пороговым фильтром и заданным уровнем уже здесь (это как 1-й вариант настройки appender) -->
         </logger>
         <root level="debug">
